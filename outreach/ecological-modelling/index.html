@@ -1,0 +1,649 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Modelling parasite-produced marine diseases - The case of the mass mortality event of Pinna nobilis - Àlex Giménez Romero</title>
+<meta name="description" content="Introduction">
+
+
+  <meta name="author" content="Àlex Giménez Romero">
+  
+  <meta property="article:author" content="Àlex Giménez Romero">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Àlex Giménez Romero">
+<meta property="og:title" content="Modelling parasite-produced marine diseases - The case of the mass mortality event of Pinna nobilis">
+<meta property="og:url" content="http://localhost:4000/outreach/ecological-modelling/">
+
+
+  <meta property="og:description" content="Introduction">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/pinna-nobilis-dying.png">
+
+
+
+  <meta name="twitter:site" content="@AlexGimenezRom1">
+  <meta name="twitter:title" content="Modelling parasite-produced marine diseases - The case of the mass mortality event of Pinna nobilis">
+  <meta name="twitter:description" content="Introduction">
+  <meta name="twitter:url" content="http://localhost:4000/outreach/ecological-modelling/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/pinna-nobilis-dying.png">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@AlexGimenezRom1">
+  
+
+
+
+  <meta property="article:published_time" content="2021-09-09T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/outreach/ecological-modelling/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Àlex Giménez Romero",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/AlexGimenezRom1","","","","https://github.com/agimenezromero"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Àlex Giménez Romero Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href='/assets/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/assets/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/assets/favicons/favicon-16x16.png'>
+<link rel="manifest" href='/assets/favicons/site.webmanifest'>
+<link rel="mask-icon" href='/assets/favicons/safari-pinned-tab.svg' color="#5bbad5">
+<link rel="shortcut icon" href='/assets/favicons/favicon.ico'>
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="Àlex Giménez Romero"></a>
+        
+        <a class="site-title" href="/">
+          Àlex Giménez Romero
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/outreach/">Outreach</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile-pic.jpg" alt="Àlex Giménez Romero" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Àlex Giménez Romero</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>PhD student in Physics of Complex Systems at the Institute for cross-disciplinary Physics and Complex Systems in Mallorca, Spain.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Mallorca, Spain</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:alex@ifisc.uib-csic.es">
+            <meta itemprop="email" content="alex@ifisc.uib-csic.es" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/AlexGimenezRom1" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/agimenezromero" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+
+      
+      <li><a href="https://orcid.org/0000-0003-2796-6801"><i class="fab fa-orcid"></i> ORCID</a></li>
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Modelling parasite-produced marine diseases - The case of the mass mortality event of Pinna nobilis">
+    <meta itemprop="description" content="Introduction">
+    <meta itemprop="datePublished" content="2021-09-09T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Modelling parasite-produced marine diseases - The case of the mass mortality event of <em>Pinna nobilis</em>
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="introduction">Introduction</h2>
+
+<p>The noble fan mussel (<em>Pinna nobilis</em>) is the largest endemic bivalve in the Mediterranean Sea, where it plays a crucial ecological role in its habitat by contributing to water clarity, being a habitat-forming species and even working as ecosystem engineers, creating biogenic reefs. Nowadays, <em>P. nobilis</em> is under a serious extinction risk due to a Mass Mortality Event (MME) that has occurred throughout the whole Mediterranean basin very recently. The main cause of this mortality is the protozoan <em>Haplosporidium pinnae</em>, which is spread by marine currents through the Mediterranean basin causing an epidemic (<a href="#cabanellas2019">M. Cabanellas-Reboredo 2019</a>; <a href="#catanese2018">G. Catanese 2018</a>).</p>
+
+<p>Contact and vector-borne based infectious diseases of terrestrial vertebrates and their epidemiology are typically studied using variations of the classical formulation of the Kermack and McKendrick SIR model. However, the state of the art of epidemiological studies in marine ecosystems lags behind that of their terrestrial counterparts. In fact, compartmental models are starting to be used only recently in the study of marine epizootics, in particular in bivalve epidemics (<a href="#bidegain2016a">G. Bidegain 2016a</a>, <a href="#bidegain2016b">G. Bidegain 2016b</a>, <a href="#bidegain2017">G. Bidegain 2017</a>).</p>
+
+<p>In the present work we analyse a model that is aimed to describe disease transmission from an infected immobile host to a susceptible one of the same species through waterborne parasites, that are explicitly described. The model is closely related to the SIP model introduced in (<a href="#bidegain2016b">G. Bidegain 2016b</a>). In this first study we analyse in detail the properties of the mean-field version of the model, that aims to describe spatially homogeneous (i.e. well mixed) populations.</p>
+
+<p>In the following sections I’ll try to explain the model and the main results of the study in a nontechnical and pedagogical way. For those further interested, just read the <a href="https://www.sciencedirect.com/science/article/pii/S030438002100260X">paper</a>!</p>
+
+<h2 id="the-model">The model</h2>
+
+<p><img src="/assets/images/SIRP_scheme_mod.jpg" alt="" /></p>
+
+<p>The model is defined according to the diagram above. We consider the parasite population in the marine medium (\(P\)) and the hosts population, that can be in three diferent states: susceptible (\(S\)), infected by the parasite (\(I\)) and dead (\(R\)). Then, we consider the different epidemic processes that can occur in this pathosystem: susceptible hosts can get infected after filtering parasites, infected hosts can die, infected hosts can produce parasites and release them in the medium and parasites can die. Each of these processes will occur at different times, ones more than the other, etc. This will be controled through the <em>parameters</em> of the model, which are nothing but the probability per unit time (rate) that each of this processes take place. As can be observed in the diagram, \(\beta\) is the rate at which susceptible hosts are infected upon filtering parasites, \(\gamma\) is the rate at which infected hosts die, \(\lambda\) is the rate at which infected hosts produce parasites and \(\mu\) is the rate at which parasites die. Altogether, and after some assumptions and considerations, one can write a mathematical model that describes the time-evolution of the number of hosts in each state and the number of parasites in the system,</p>
+
+\[\begin{aligned}
+            \dot{S} &amp;=-\bar{\beta} P S \\
+            \dot{I} &amp;=\bar{\beta} P S-\gamma I \\
+            \dot{R} &amp;=\gamma I \\
+            \dot{P} &amp;=\lambda I-\bar{\beta} P S-\mu P \ .
+        \end{aligned}\]
+
+<p>More formally, this kind of models are known as <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology"><em>compartmental models</em></a> and the mathematical framework we are using to represent it is known as a <a href="https://en.wikipedia.org/wiki/Differential_equation"><em>system of ordinary differential equations</em></a>.</p>
+
+<h2 id="results">Results</h2>
+
+<p>The developed model can be used to simulate the considered processes for different values of the parameters and obtain the time-evolution of the number of hosts in each state and the number of parasites in the system. In the gif below we show the results of the model for four different parameters sets, from which we can make a number of observations. Comparing (A) with (B), we observe that increasing the transmission rate (\(\beta\)) the epidemic starts earlier and the final number of dead hosts increase, something that indeed could be expected from common sense. Similarly, comparing plots (A) and (C) we note that decreasing the parasite production rate of infected hosts (\(\lambda\)) has the opposite effects, causes a delay in the appearence of the epidemic and reduces the final number of dead hosts at the end of the epidemic. Again, this behaviour could be anticipated from common sense. Finaly, we observe that if we further reduce the \(\lambda\) parameter (the same would happen with \(\beta\)), no outbreak is produced.</p>
+
+<p><img src="/assets/images/SIRP.gif" alt="" /></p>
+
+<p>One could further study the pathosystem by changing the parameter values of the model and observing the simulation outcome, but this would be tedious and inefficient. Instead, we can use some mathematical theories from dynamical systems to obtain something much more interesting: the so-called <em>Basic Reproduction Number</em>, \(R_0\). In short, this parameter measures the average number of secondary infections produced by an initial infected individual in a fully susceptible population. So, if \(R_0&gt;1\), an infected host produces more than one new infection, giving rise to a branching process that causes the exponential rise of infected cases. On the other hand, if \(R_0&lt;1\) an infected host infects causes less than one new infection and the epidemic dies out. For our model, the Basic Reproduction Number is given by the following formula:</p>
+
+\[R_0=\frac{\lambda}{\gamma\left(1+\displaystyle\frac{\mu}{\beta}\right)}\]
+
+<p>As you can see, the result is pretty simple! Now we can check the \(R_0\) values of the previous simulations, which turn out to be:</p>
+
+<ul>
+  <li>(A) \(R_0\approx2.5\)</li>
+  <li>(B) \(R_0\approx5\)</li>
+  <li>(C) \(R_0\approx2\)</li>
+  <li>(D) \(R_0\approx0.995\)</li>
+</ul>
+
+<p>Note that in the only case that \(R_0&lt;1\), this is case (D), an outbreak was not developed in the simulations. Thus, the theory perfectly predicts the appearence of an outbreak. So now we can fully understand the behaviour of the model without even simulating it! Indeed, it can be proven that the number of dead individuals at the end of the epidemic is a (more complicated) function of \(R_0\), so that only by knowing the parameter values of the model you can even predict the consequences of the epidemic</p>
+
+<p>Up to this point I hope to have convinced you of the power of applying mathematics to study epidemics, at least this one. But, all this still seems very theoretical, so, it is really useful? Well, it all depends on the knowledge of the <strong>real</strong> values of the parameters and the availability of field data. For the case of the Mass Mortality Event of <em>Pinna nobilis</em>, as it is an emergent disease, only the value of the mortality rate of hosts could be inferred, being \(\gamma=1\) month\(^{-1}\). However, some data of the time evolution of the epidemic in the controlled water tanks was available after a frustrated conservation effort. The empirical data consists of the proportion of survivors as a function of time in the controlled water tanks with a temporal resolution of one month. The availability of such data allowed us to fit our model, this is, obtain the values of the model parameters that better represents the data.</p>
+
+<p><img src="/assets/images/SIRP_fit.png" alt="" /></p>
+
+<p>Indeed, the fitting procedure involved further mathematical analysis that is out of the scope of this outreach article. In short, we reduced our model to a simpler (less equations and less parameters) but equivalent one, that turn out to be a well-known epidemic model, the <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model">SIR model</a>. In any case, in the figure above we can observe how the model (in its reduced version) is able to chracterize the outbreaks on two different water tanks, that were kept at different temperatures.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>In this study, we developed a deterministic compartmental model to describe parasite produced marine diseases of immobile hosts and applied it to the particular case of the Mass Mortality Event of <em>Pinna nobilis</em>. The results presented here represent only the surface of the study, if you are further interested go to read the <a href="https://www.sciencedirect.com/science/article/pii/S030438002100260X">paper</a>!</p>
+
+<h2 id="references">References</h2>
+
+<p><a name="cabanellas2019"></a> Cabanellas-Reboredo M., et al. Tracking a mass mortality outbreak of pen shell Pinna nobilis populations: A collaborative effort of scientists and citizens <a href="https://www.nature.com/articles/s41598-019-49808-4">Sci. Rep.</a>, 9 <strong>(2019)</strong></p>
+
+<p><a name="catanese2018"></a> Catanese G., et al. Haplosporidium pinnae sp. nov. a haplosporidan parasite associated with mass mortalities of the fan mussel, <em>Pinna nobilis</em>, in the Western Mediterranean Sea <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022201118301034?via%3Dihub">J. Invertebr. Pathol.</a>, 157 <strong>(2018)</strong></p>
+
+<p><a name="bidegain2016a"></a> Bidegain G., Powell E., Klinck J., Ben-Horin T., Hofmann E. Microparasitic disease dynamics in benthic suspension feeders: Infective dose, non-focal hosts, and particle diffusion <a href="https://www.sciencedirect.com/science/article/abs/pii/S030438001630031X?via%3Dihub">Ecol. Model.</a>, 328 <strong>(2016)</strong></p>
+
+<p><a name="bidegain2016b"></a> Bidegain G., Powell E.N., Klinck J.M., Ben-Horin T., Hofmann E.E. Marine infectious disease dynamics and outbreak thresholds: contact transmission, pandemic infection, and the potential role of filter feeders <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.1286">Ecosphere</a>, 7 <strong>(2016)</strong>.</p>
+
+<p><a name="bidegain2017"></a> Bidegain G., Powell E., Klinck J., Hofmann E., Ben-Horin T., Bushek D., Ford S., Munroe D., Guo X. Modeling the transmission of Perkinsus marinus in the eastern oyster Crassostrea virginica <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165783616302582?via%3Dihub">Fish. Res.</a>, 186 <strong>(2017)</strong></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#epidemics" class="page__taxonomy-item" rel="tag">Epidemics</a><span class="sep">, </span>
+    
+      <a href="/tags/#research" class="page__taxonomy-item" rel="tag">Research</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#outreach" class="page__taxonomy-item" rel="tag">Outreach</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-09T00:00:00-04:00">September 9, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=AlexGimenezRom1&text=Modelling+parasite-produced+marine+diseases+-+The+case+of+the+mass+mortality+event+of+%2APinna+nobilis%2A%20http%3A%2F%2Flocalhost%3A4000%2Foutreach%2Fecological-modelling%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Foutreach%2Fecological-modelling%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Foutreach%2Fecological-modelling%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/projects/Project-1/" class="pagination--pager" title="Complex Systems Modelling in Ecology: emergent diseases and climate change
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/logo.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/projects/Project-1/" rel="permalink">Complex Systems Modelling in Ecology: emergent diseases and climate change
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Complex Systems Modelling in Ecology: emergent diseases and climate change
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:alex@ifisc.uib-csic.es" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://github.com/agimenezromero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/AlexGimenezRom1" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Àlex Giménez Romero. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'agimenezromero/agimenezromero.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
