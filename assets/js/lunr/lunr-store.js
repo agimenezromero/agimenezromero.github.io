@@ -7,7 +7,7 @@ var store = [{
       },{
         "title": "Complex Systems Modelling in Ecology: emergent diseases and climate change",
         "excerpt":"Complex Systems Modelling in Ecology: emergent diseases and climate change   In this project we aim to study some currently threatened ecosystems by emergent diseases and climate change from the perspective of mathematical and computational ecology. In particular, we will focus on the following topics:           The Mass Mortality Event of Pinna nobilis            Diseases produced by Xylella fastidiosa            Posidonia oceanica meadows            Coral reefs       Check my thesis plan for more detailed information!s  ","categories": ["Projects"],
-        "tags": ["Epidemics"],
+        "tags": [],
         "url": "/projects/PhD-thesis/",
-        "teaser": null
+        "teaser": "/assets/images/ecological-complexity.png"
       }]
