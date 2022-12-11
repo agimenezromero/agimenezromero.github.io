@@ -1,23 +1,189 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-11T08:11:26-05:00</updated><id>http://localhost:4000/feed.xml</id><icon>http://localhost:4000/assets/favicons/favicon.ico</icon><logo>http://localhost:4000/assets/images/logo.png</logo><logo>http://localhost:4000/assets/images/logo.png</logo><title type="html">Àlex Giménez Romero</title><subtitle>Personal website for Àlex Giménez-Romero.</subtitle><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><entry><title type="html">Complex Systems Modelling in Ecology: emergent diseases and climate change</title><link href="http://localhost:4000/projects/PhD-thesis/" rel="alternate" type="text/html" title="Complex Systems Modelling in Ecology: emergent diseases and climate change" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/projects/PhD-thesis</id><content type="html" xml:base="http://localhost:4000/projects/PhD-thesis/">&lt;h2 id=&quot;complex-systems-modelling-in-ecology-emergent-diseases-and-climate-change&quot;&gt;Complex Systems Modelling in Ecology: emergent diseases and climate change&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-11T13:19:03-05:00</updated><id>http://localhost:4000/feed.xml</id><icon>http://localhost:4000/assets/favicons/favicon.ico</icon><logo>http://localhost:4000/assets/images/logo.png</logo><logo>http://localhost:4000/assets/images/logo.png</logo><title type="html">Àlex Giménez Romero</title><subtitle>Personal website for Àlex Giménez-Romero.</subtitle><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><entry><title type="html">The 54 highest points of the Tramuntana</title><link href="http://localhost:4000/projects/54-miles/" rel="alternate" type="text/html" title="The 54 highest points of the Tramuntana" /><published>2022-12-10T00:00:00-05:00</published><updated>2022-12-10T00:00:00-05:00</updated><id>http://localhost:4000/projects/54-miles</id><content type="html" xml:base="http://localhost:4000/projects/54-miles/">&lt;p&gt;One of my personal “challenges” during my PhD in Mallorca is to reach the 54 highest points in Mallorca, which are higher than 1000 m. Below you can find an interactive map with the locations of all this points and you can find its name and height by clicking the icons.&lt;/p&gt;
+
+&lt;iframe src=&quot;/assets/images/54-miles.html&quot; width=&quot;900&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;the-list-of-the-54-highest-points-in-mallorca&quot;&gt;The list of the 54 highest points in Mallorca&lt;/h3&gt;
+
+&lt;p&gt;This is the list of the 54 highest points in Mallorca with their name and height. The ones underlined and coloured in blue have a link to a Wikiloc trail in which I recorded the hike. Check them out!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Puig Major (1447m)&lt;/li&gt;
+  &lt;li&gt;Puig Major espolón NE (1416m)&lt;/li&gt;
+  &lt;li&gt;Penyal des Migdia (1398m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597&quot;&gt;Puig de Massanella (1367m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/penyal-des-migdia-64110938&quot;&gt;Penyal des Migdia W (1356m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597&quot;&gt;Puig de Massanella espolón S (1352m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Morró d’en Pelut (1319m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794&quot;&gt;Serra des Teixos E (1258m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Pa de Figa de Son Torrella (1256m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794&quot;&gt;Serra des Teixos W (1239m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-ses-bassetes-93507395&quot;&gt;Puig de ses Bassetes (1216m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Agulla des Frare (1205m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig de sa Mola (1188m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig den Galileu (1182m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Puig des Prat (1169m)&lt;/li&gt;
+  &lt;li&gt;Serra de Son Torrella N (1123m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Puig des Tossals Verds (1115m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta N (1113m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Puig de ses Vinyes (1108m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933&quot;&gt;Puig Tomir (1104m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Puig des Tossals Verds S (1097m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de l’Ofre(1093m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta S (1085m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;(https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933)&quot;&gt;Puig Tomir espolón SW (1083m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Serra de Son Torrella S (1079m)&lt;/li&gt;
+  &lt;li&gt;Serra de Son Torrella Central (1079m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Font E (1071m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Puig d’Alfàbia (1067m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de na Franquesa (1067m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198&quot;&gt;Puig Teixot (1065m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-des-teix-63677939&quot;&gt;Puig des Teix (1064m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973&quot;&gt;Es Frontó de Comafreda (1061m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx E (1058m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sa Trona (1058m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Torre (1058m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Serra de na Rius (1057m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx Central (1055m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Penya de s’Anyell (1053m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-des-coll-des-jou-89390236&quot;&gt;Puig des Coll des Jou (1052m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia N (1044m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx W (1042m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-nali-100945878&quot;&gt;Puig de n’ali (1035m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Font W (1028m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta E (1027m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-galatzo-87921462&quot;&gt;Puig de Galatzo (1027m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia S (1025m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig de Son Nebot (1025m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Puig des Sementer Gran (1013m)&lt;/li&gt;
+  &lt;li&gt;Espolón Xaragall de sa Camamilla (1013m)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Es frontó de sa Mola (1009m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia Central (1005m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198&quot;&gt;Puig des Vent (1005m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973&quot;&gt;Puig de la Criaça d’Alt (1004m)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-roig-88352125&quot;&gt;Puig Roig (1003m)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html">One of my personal challenges during my PhD in Mallorca!</summary></entry><entry><title type="html">Sa Travessa</title><link href="http://localhost:4000/projects/sa-travessa/" rel="alternate" type="text/html" title="Sa Travessa" /><published>2022-12-03T00:00:00-05:00</published><updated>2022-12-03T00:00:00-05:00</updated><id>http://localhost:4000/projects/sa-travessa</id><content type="html" xml:base="http://localhost:4000/projects/sa-travessa/">&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-profile.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After almost three years in Mallorca, I finally carried out “Sa Travessa”, a several days hike from side to side of the Tramuntana mountain range. I had the pleasure to share this experience with some friends who also enjoy hiking: Pablo, María, Lorena and Carmela. Other friends like Bea, Medea and Luli came also to some of the stages, which was somehow refreshing!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-people-names.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The trip started at Calvià on Saturday 3rd of December of 2022 and finished at Port de Pollença the Thursday 8th of December after 6 days with almost 120 Km walked and 5000 m of elevation gained. We divided the long hike into 6 stages, which are summarised in the table below:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Distance&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Elevation Gain&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Elevation Loss&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Moving Time&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Total Time&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Calvià-Esporles&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;892 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;819 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5h 52min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8h 39min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Esporles-Deià&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1340 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1390 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6h 25min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8h 45min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Deià-Tossals Verds&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1683 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1283 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7h 48min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10h 49min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Tossals Verds-Lluc&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;783 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;914 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4h 42min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7h 28min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lluc-Pollença&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;188 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;668 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4h 57min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7h 22min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Pollença-Port de Pollença&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7 Km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;50 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1h 25min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1h 30min&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Certainly the first three stages were quite intense!&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, we had plenty of time to enjoy the beautiful views and do some crazy things…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As the geek I am, I decided to download the data from the Wikiloc trails that Carmela and Maria recorded and access it using Python with gpxpy library. Then I could plot the nice profile of the stages with few lines of code, look below!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-etapas.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another cool thing I did is an interactive map of our full trip, showing the starting and ending point of each stage and the path we followed. Click on the red line to check the stats of each trail and click the title to go to the Wikiloc record!&lt;/p&gt;
+
+&lt;iframe src=&quot;/assets/images/sa-travessa.html&quot; width=&quot;900&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;wikiloc-trails&quot;&gt;Wikiloc trails:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/calvia-esporles-sa-travessa-segunda-etapa-120500172&quot;&gt;Calvià-Esporles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/esporles-deia-sa-travessa-3a-etapa-120600645&quot;&gt;Esporles-Deià&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/gr221-deia-tossals-120669697&quot;&gt;Deià-Tossals Verds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/refugi-tossals-refugi-son-amer-lluc-120744823&quot;&gt;Tossals Verda-Lluc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/lluc-pollenca-120805345&quot;&gt;Lluc-Pollença&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/sa-travessa-dia-6-6-refugi-pont-roma-pollenca-port-de-pollenca-120840705&quot;&gt;Pollença-Port de Pollença&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html">A several days hike from side to side of the Tramuntana!</summary></entry><entry><title type="html">Complex Systems Modelling in Ecology: emergent diseases and climate change</title><link href="http://localhost:4000/projects/PhD-thesis/" rel="alternate" type="text/html" title="Complex Systems Modelling in Ecology: emergent diseases and climate change" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/projects/PhD-thesis</id><content type="html" xml:base="http://localhost:4000/projects/PhD-thesis/">&lt;h2 id=&quot;complex-systems-modelling-in-ecology-emergent-diseases-and-climate-change&quot;&gt;Complex Systems Modelling in Ecology: emergent diseases and climate change&lt;/h2&gt;
 
 &lt;p&gt;In this project we aim to study some currently threatened ecosystems by emergent diseases and climate change from the perspective of mathematical and computational ecology. In particular, we will focus on the following topics:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Mass Mortality Event of &lt;em&gt;Pinna nobilis&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Diseases produced by &lt;em&gt;Xylella fastidiosa&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Posidonia oceanica&lt;/em&gt; meadows&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Coral reefs&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;The Mass Mortality Event of &lt;em&gt;Pinna nobilis&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Check my &lt;a href=&quot;/assets/docs/Plan_Tesis.pdf&quot;&gt;thesis plan&lt;/a&gt; for more detailed information!s&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><summary type="html">This is my PhD thesis project!</summary></entry><entry><title type="html">Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*</title><link href="http://localhost:4000/outreach/ecological-modelling/" rel="alternate" type="text/html" title="Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*" /><published>2021-09-09T00:00:00-04:00</published><updated>2021-09-09T00:00:00-04:00</updated><id>http://localhost:4000/outreach/ecological-modelling</id><content type="html" xml:base="http://localhost:4000/outreach/ecological-modelling/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The parasite &lt;em&gt;H. pinnae&lt;/em&gt; is responsible for the Mass Mortality Event of the pen-shell &lt;em&gt;Pinna nobilis&lt;/em&gt;, an endemic filter-feeder bivalve of the Mediterranean sea. The first mortality events occurred in September 2016 in southeastern Spain and has since spread to all Spanish Mediterranean coasts, reaching France, Italy, Greece, Cyprus and other Mediterranean countries in less than two years. To date, data indicate that the protozoan species is specific to &lt;em&gt;P. nobilis&lt;/em&gt;, without affecting other invertebrates, including the congener species &lt;em&gt;P. rudis&lt;/em&gt;. The prevalence and consequent subsequent mortality reaches almost 100% in infected populations, an unprecedented figure given the precedents of similar epidemics in commercial bivalve species. Follow-up of the event has helped to better understand the spread of the disease, with surface currents being the main factor influencing local dispersal, while disease expression appears to be closely related to temperatures above 13.5ºC and salinity between 36.5-39.7 psu. This phenomenon has mainly affected the coastal ecosystems of the eastern Mediterranean Sea, introducing a serious risk of extinction of the species.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Diseases produced by &lt;em&gt;Xylella fastidiosa&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The bacterium &lt;em&gt;Xylella fastidiosa&lt;/em&gt; (Xf) is native to the Americas, where it causes vector-borne diseases such as those produced in many economically important crops, such as vineyards, citrus, almond, coffee and olive trees. Xf is phylogenetically subdivided into three formally recognized subspecies: &lt;em&gt;fastidiosa&lt;/em&gt;, &lt;em&gt;multiplex&lt;/em&gt; and &lt;em&gt;pauca&lt;/em&gt;, originally from Central America, North America and South America, respectively. Since 2013, several standard sequences of the three subspecies associated mainly with crop and ornamental plants have been detected in Europe; among these, the clonal lineage (ST1 / ST2) of the subsp. &lt;em&gt;fastidiosa&lt;/em&gt; responsible for the well-known diseases “Pierce Disease” (PD) and “Almond Leaf Scorch Disease” (ALSD). The epidemic situation is especially delicate in Mallorca, where the disease is widespread in almond and vineyard plantations, affecting 81% of almonds and more than 23 grape varieties. To date, xylem-sap feeder insects, such as sharpshooters leafhoppers and spittlebugs appear to be the main epidemiological relevant vectors for Xf-related diseases, being &lt;em&gt;Philaenus spumarius&lt;/em&gt; and &lt;em&gt;Neophilaenus campestris&lt;/em&gt; the main relevant vectors in Europe.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Posidonia oceanica&lt;/em&gt; meadows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Posidonia oceanica&lt;/em&gt; is an endemic seagrass of the Mediterranean sea that forms the dominant ecosystem on its coastline. Posidonia meadows have an enormous ecological, economic and social importance, protecting the beaches from erosion, improving water quality, giving life support to numerous species, absorbing CO&lt;sub&gt;2&lt;/sub&gt;, etc. Nowadays, given its high sensitivity to temperature changes, this species is in decline in many areas of the Mediterranean. In addition, &lt;em&gt;P. oceanica&lt;/em&gt; coexists in the bed with &lt;em&gt;Cymodocea nodosa&lt;/em&gt;, another marine plant with greater tolerance to high temperatures. In a climate change context, the competition between both species will play a key role in how coastal marine ecosystems will change in the near future.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coral reefs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Coral reefs are one of the most biodiverse ecosystems in Earth, holding more than 25% of marine life with only 1% of ocean floor coverage. Corals are colonies of live organisms called polyps, held together by a self-produced exoskeleton made of calcium carbonate. Polyps host photosynthetic microalgae in a mutualistic interaction: polyps obtain nutrients from microalgae while microalgae are compensated with protection and some nutrients too. Consequences of global change, such as temperature increases and ocean acidification, represent a substantial threat to coral reef ecosystems. High ocean temperatures promote the “bleaching” phenomenon, in which individual polyps expel the microalgae symbionts, losing their characteristic color and getting rid of their primary source of nutrients. On the other hand, ocean acidification promotes the dissolution of the calcium carbonate exosquelet of corals.&lt;/p&gt;
+
+&lt;p&gt;Check my &lt;a href=&quot;/assets/docs/Plan_Tesis.pdf&quot;&gt;thesis plan&lt;/a&gt; for more detailed information!&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><summary type="html">This is my PhD thesis project!</summary></entry><entry><title type="html">Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*</title><link href="http://localhost:4000/outreach/ecological-modelling/" rel="alternate" type="text/html" title="Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*" /><published>2021-09-09T00:00:00-04:00</published><updated>2021-09-09T00:00:00-04:00</updated><id>http://localhost:4000/outreach/ecological-modelling</id><content type="html" xml:base="http://localhost:4000/outreach/ecological-modelling/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;The noble fan mussel (&lt;em&gt;Pinna nobilis&lt;/em&gt;) is the largest endemic bivalve in the Mediterranean Sea, where it plays a crucial ecological role in its habitat by contributing to water clarity, being a habitat-forming species and even working as ecosystem engineers, creating biogenic reefs. Nowadays, &lt;em&gt;P. nobilis&lt;/em&gt; is under a serious extinction risk due to a Mass Mortality Event (MME) that has occurred throughout the whole Mediterranean basin very recently. The main cause of this mortality is the protozoan &lt;em&gt;Haplosporidium pinnae&lt;/em&gt;, which is spread by marine currents through the Mediterranean basin causing an epidemic (&lt;a href=&quot;#cabanellas2019&quot;&gt;M. Cabanellas-Reboredo 2019&lt;/a&gt;; &lt;a href=&quot;#catanese2018&quot;&gt;G. Catanese 2018&lt;/a&gt;).&lt;/p&gt;
 
