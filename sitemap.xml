@@ -65,7 +65,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/docs/CV.pdf</loc>
-<lastmod>2024-10-03T11:23:58-04:00</lastmod>
+<lastmod>2024-12-22T15:13:56-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/docs/Plan_Tesis.pdf</loc>
@@ -94,6 +94,14 @@
 <url>
 <loc>http://localhost:4000/papers/EnvEnt_2023.pdf</loc>
 <lastmod>2023-06-16T12:17:01-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/papers/GEB_2024.pdf</loc>
+<lastmod>2024-12-22T12:57:21-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/papers/PHC2022.pdf</loc>
+<lastmod>2024-12-22T15:01:11-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/PRE_2022.pdf</loc>

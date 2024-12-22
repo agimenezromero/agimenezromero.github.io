@@ -1,11 +1,12 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -60,17 +61,7 @@
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Àlex Giménez Romero",
-      "url": "http://localhost:4000/",
-      "sameAs": ["https://twitter.com/AlexGimenezRom1","","","","https://github.com/agimenezromero"]
-    
-  }
-</script>
+
 
 
 
@@ -83,19 +74,17 @@
 
 
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Àlex Giménez Romero Feed">
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
+<script type="text/javascript">
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
 
 
@@ -114,6 +103,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+
 <!-- end custom head snippets -->
 
   </head>
@@ -126,10 +116,6 @@
     <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
 
     
 
@@ -145,15 +131,35 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/">About</a>
+              <a
+                href="/about/"
+                
+                
+              >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/outreach/">Outreach</a>
+              <a
+                href="/outreach/"
+                
+                
+              >Outreach</a>
             </li><li class="masthead__menu-item">
-              <a href="/projects/">Projects</a>
+              <a
+                href="/projects/"
+                
+                
+              >Projects</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/">Publications</a>
+              <a
+                href="/publications/"
+                
+                
+              >Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv/">CV</a>
+              <a
+                href="/cv/"
+                
+                
+              >CV</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -231,10 +237,18 @@
 
       
         <li>
-          <a href="https://twitter.com/AlexGimenezRom1" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          <a href="https://twitter.com/AlexGimenezRom1" itemprop="sameAs" rel="nofollow noopener noreferrer", target="_blank">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span class="label">Twitter</span>
           </a>
         </li>
+      
+
+      
+      <li>
+        <a href="https://bsky.app/profile/agimenezromero.bsky.social" itemprop="sameAs" rel="nofollow noopener noreferrer", target="_blank">
+          <i class="fa-brands fa-bluesky" aria-hidden="true"></i><span class="label">Bluesky</span>
+        </a>
+      </li>
       
 
       
@@ -251,7 +265,7 @@
 
       
         <li>
-          <a href="https://github.com/agimenezromero" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/agimenezromero" itemprop="sameAs" rel="nofollow noopener noreferrer", target="_blank">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
@@ -284,20 +298,25 @@
       
 
       
-      <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en", target="_blank"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></li>
       
 
       
-      <li><a href="https://orcid.org/0000-0003-2796-6801"><i class="fab fa-orcid"></i> ORCID</a></li>
+      <li><a href="https://www.researchgate.net/profile/Alex-Gimenez-Romero" , target="_blank"><i class="fa-brands fa-researchgate"></i> ResearchGate</a></li>
+      
+
+      
+      
+      <li><a href="https://orcid.org/0000-0003-2796-6801", target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a></li>
       
       
       
-      <li><a href="https://www.wikiloc.com/wikiloc/user.do?id=5386522"><i class="fas fa-hiking"></i> Wikiloc</a></li>
+      <li><a href="https://www.wikiloc.com/wikiloc/user.do?id=5386522", target="_blank"><i class="fas fa-hiking"></i> Wikiloc</a></li>
       
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -610,11 +629,13 @@
 
   </div>
 </div>
+
+      
     </div>
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
     <label class="sr-only" for="search">
       Enter your search term...
     </label>
@@ -637,23 +658,35 @@
     
       
         
-          <li><a href="mailto:alex@ifisc.uib-csic.es" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          <li><a href="mailto:alex@ifisc.uib-csic.es" target="_blank" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
         
       
         
-          <li><a href="https://github.com/agimenezromero" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/agimenezromero" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
-          <li><a href="https://twitter.com/AlexGimenezRom1" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/AlexGimenezRom1" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+          <li><a href="https://bsky.app/profile/agimenezromero.bsky.social" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
         
       
         
-          <li><a href="https://es.wikiloc.com/wikiloc/user.do?id=5386522" rel="nofollow noopener noreferrer"><i class="fas fa-hiking" aria-hidden="true"></i> Wikiloc</a></li>
+          <li><a href="https://scholar.google.es/citations?user=KurxXPAAAAAJ&hl=en" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+        
+          <li><a href="https://www.researchgate.net/profile/Alex-Gimenez-Romero" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+        
+      
+        
+          <li><a href="https://orcid.org/0000-0003-2796-6801" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID</a></li>
+        
+      
+        
+          <li><a href="https://es.wikiloc.com/wikiloc/user.do?id=5386522" target="_blank" rel="nofollow noopener noreferrer"><i class="fas fa-hiking" aria-hidden="true"></i> Wikiloc</a></li>
         
       
     
@@ -664,7 +697,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Àlex Giménez Romero. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Àlex Giménez Romero</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -678,7 +711,6 @@
 <script src="/assets/js/lunr/lunr.min.js"></script>
 <script src="/assets/js/lunr/lunr-store.js"></script>
 <script src="/assets/js/lunr/lunr-en.js"></script>
-
 
 
 

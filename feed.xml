@@ -1,382 +1,382 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-03T11:26:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Àlex Giménez Romero</title><subtitle>Personal website for Àlex Giménez-Romero.</subtitle><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><entry><title type="html">New *Xylella fastidiosa* outbreak detected in Portugal</title><link href="http://localhost:4000/outreach/New-Xf-outbreak-Portugal/" rel="alternate" type="text/html" title="New *Xylella fastidiosa* outbreak detected in Portugal" /><published>2023-01-31T00:00:00-05:00</published><updated>2023-01-31T00:00:00-05:00</updated><id>http://localhost:4000/outreach/New-Xf-outbreak-Portugal</id><content type="html" xml:base="http://localhost:4000/outreach/New-Xf-outbreak-Portugal/">&lt;p&gt;About a month ago, the national program for surveys of organisms in quarantine in Portugal reported the presence of the bacterium &lt;em&gt;Xylella fastidiosa&lt;/em&gt; (Xf) in 10 new localities in the surroundings of Oporto. In the last few years, the bacterium has been detected a few times in the country, while it has been established in Mallorca and Puglia causing devastating consequences. As stated in &lt;a href=&quot;https://www.lavozdegalicia.es/noticia/somosagro/2023/01/27/urgen-extremar-vigilancia-prevencion-sobre-videsu-plantas-compradas-portugal/00031674824894691542639.htm&quot;&gt;La Voz de Galicia&lt;/a&gt; regional newspaper, the proximity of Oporto to the Spanish region of Galicia has raised the alarms among the plant health managers of the region. There is a special concern for the possibility of a Pierce’s Disease (PD) outbreak, which affects the vineyards, a relatively important economic sector of the region.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-22T15:16:32-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Àlex Giménez Romero</title><subtitle>Personal website for Àlex Giménez-Romero.</subtitle><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><entry><title type="html">New *Xylella fastidiosa* outbreak detected in Portugal</title><link href="http://localhost:4000/outreach/New-Xf-outbreak-Portugal/" rel="alternate" type="text/html" title="New *Xylella fastidiosa* outbreak detected in Portugal" /><published>2023-01-31T00:00:00-05:00</published><updated>2023-01-31T00:00:00-05:00</updated><id>http://localhost:4000/outreach/New-Xf-outbreak-Portugal</id><content type="html" xml:base="http://localhost:4000/outreach/New-Xf-outbreak-Portugal/"><![CDATA[<p>About a month ago, the national program for surveys of organisms in quarantine in Portugal reported the presence of the bacterium <em>Xylella fastidiosa</em> (Xf) in 10 new localities in the surroundings of Oporto. In the last few years, the bacterium has been detected a few times in the country, while it has been established in Mallorca and Puglia causing devastating consequences. As stated in <a href="https://www.lavozdegalicia.es/noticia/somosagro/2023/01/27/urgen-extremar-vigilancia-prevencion-sobre-videsu-plantas-compradas-portugal/00031674824894691542639.htm">La Voz de Galicia</a> regional newspaper, the proximity of Oporto to the Spanish region of Galicia has raised the alarms among the plant health managers of the region. There is a special concern for the possibility of a Pierce’s Disease (PD) outbreak, which affects the vineyards, a relatively important economic sector of the region.</p>
 
-&lt;p&gt;Recently, we developed a temperature-driven dynamic epidemiological model to assess the risk of the establishment of PD worldwide. The model is based on three basic ingredients: the climatic conditions that allow for the survival and reproduction of the bacterium (i.e temperature), the presence of vectors that can spread the disease (i.e. &lt;em&gt;Philaenus spumarius&lt;/em&gt; in Europe), and the usual temporal dynamics of disease spreading (i.e. an initial exponential regime given by the usual branching processes). So, what can our model say about this recently detected outbreak?&lt;/p&gt;
+<p>Recently, we developed a temperature-driven dynamic epidemiological model to assess the risk of the establishment of PD worldwide. The model is based on three basic ingredients: the climatic conditions that allow for the survival and reproduction of the bacterium (i.e temperature), the presence of vectors that can spread the disease (i.e. <em>Philaenus spumarius</em> in Europe), and the usual temporal dynamics of disease spreading (i.e. an initial exponential regime given by the usual branching processes). So, what can our model say about this recently detected outbreak?</p>
 
-&lt;p&gt;We ran our model using high-resolution daily temperature data from the &lt;a href=&quot;https://chelsa-climate.org/&quot;&gt;Chelsa dataset&lt;/a&gt; in the period 2008-2016. We used the same parameters as used in our original &lt;a href=&quot;https://www.nature.com/articles/s42003-022-04358-w&quot;&gt;paper&lt;/a&gt; published in Communications Biology:&lt;/p&gt;
+<p>We ran our model using high-resolution daily temperature data from the <a href="https://chelsa-climate.org/">Chelsa dataset</a> in the period 2008-2016. We used the same parameters as used in our original <a href="https://www.nature.com/articles/s42003-022-04358-w">paper</a> published in Communications Biology:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The &lt;em&gt;Basic Reproductive Number&lt;/em&gt; for Europe, \(R_0=5\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The climatic suitability for the main European vector of the disease, &lt;em&gt;Philaenus spumarius&lt;/em&gt;, derived from a Species Distribution Model (SDM), as a proxy for its presence and abundance.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>
+    <p>The <em>Basic Reproductive Number</em> for Europe, \(R_0=5\)</p>
+  </li>
+  <li>
+    <p>The climatic suitability for the main European vector of the disease, <em>Philaenus spumarius</em>, derived from a Species Distribution Model (SDM), as a proxy for its presence and abundance.</p>
+  </li>
+</ul>
 
-&lt;p&gt;Check the &lt;a href=&quot;https://www.nature.com/articles/s42003-022-04358-w&quot;&gt;paper&lt;/a&gt; for a detailed description of the model and all the technical details or check &lt;a href=&quot;/outreach/communications-biology/&quot;&gt;this post&lt;/a&gt; for a non-technical summary about it!&lt;/p&gt;
+<p>Check the <a href="https://www.nature.com/articles/s42003-022-04358-w">paper</a> for a detailed description of the model and all the technical details or check <a href="/outreach/communications-biology/">this post</a> for a non-technical summary about it!</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/risk-portugal-complete-zoom.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/risk-portugal-complete-zoom.png" style="width:100%" />
+</p>
 
-&lt;p align=&quot;left&quot;&gt;
-&lt;b&gt;Fig. 1&lt;/b&gt;. Risk of PD establishment together with the zones in which Xf has been detected. The blue demarked zone corresponds to the zone of the recently detected outbreak while white circles correspond to previous detections. &lt;b&gt;(A)&lt;/b&gt; Disease risk index (i.e. normalized growth rate of simulated incidence). &lt;b&gt;(B)&lt;/b&gt; Risk zones.
-&lt;/p&gt;
+<p align="left">
+<b>Fig. 1</b>. Risk of PD establishment together with the zones in which Xf has been detected. The blue demarked zone corresponds to the zone of the recently detected outbreak while white circles correspond to previous detections. <b>(A)</b> Disease risk index (i.e. normalized growth rate of simulated incidence). <b>(B)</b> Risk zones.
+</p>
 
-&lt;p&gt;We observe that almost all zones in which Xf has been detected are inferred as risk zones by the model. Few of them seem to remain in no-risk zones, but we must recall that detections do not imply general propagation and subsequent establishment. Indeed, given that our model is &lt;strong&gt;mechanistic&lt;/strong&gt; (i.e. process-based), we can further analyse our results and try to find &lt;strong&gt;why&lt;/strong&gt; there is a risk or not in the different zones.&lt;/p&gt;
+<p>We observe that almost all zones in which Xf has been detected are inferred as risk zones by the model. Few of them seem to remain in no-risk zones, but we must recall that detections do not imply general propagation and subsequent establishment. Indeed, given that our model is <strong>mechanistic</strong> (i.e. process-based), we can further analyse our results and try to find <strong>why</strong> there is a risk or not in the different zones.</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/suitabilities-zoom.png&quot; style=&quot;width:80%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/suitabilities-zoom.png" style="width:80%" />
+</p>
 
-&lt;p align=&quot;left&quot;&gt;
-&lt;b&gt;Fig. 2&lt;/b&gt;. &lt;b&gt;(A)&lt;/b&gt; Climatic suitability of Xf. &lt;b&gt;(B)&lt;/b&gt; Climatic suitability for the main European vector, &lt;i&gt;Philaenus spumarius&lt;/i&gt;.
-&lt;/p&gt;
+<p align="left">
+<b>Fig. 2</b>. <b>(A)</b> Climatic suitability of Xf. <b>(B)</b> Climatic suitability for the main European vector, <i>Philaenus spumarius</i>.
+</p>
 
-&lt;p&gt;In &lt;strong&gt;Fig. 2&lt;/strong&gt; we show the temperature-based climatic suitability of Xf (&lt;strong&gt;Fig. 2A&lt;/strong&gt;) and the vector climatic suitability (&lt;strong&gt;Fig. 2B&lt;/strong&gt;) around the regions that were inferred as no-risk zones in our model. We observe that most of these zones are indeed climatically suitable for the bacterium, but there is not enough vector presence to propagate it and produce an outbreak. Nevertheless, the vector climatic suitability is only a proxy for vector presence and abundance, and the values come from a correlative model (SDM), so it is not the more robust part of our model. In other words, if vector abundance in this zones was underestimated by the SDM, then it could be a risk zone in practice.&lt;/p&gt;
+<p>In <strong>Fig. 2</strong> we show the temperature-based climatic suitability of Xf (<strong>Fig. 2A</strong>) and the vector climatic suitability (<strong>Fig. 2B</strong>) around the regions that were inferred as no-risk zones in our model. We observe that most of these zones are indeed climatically suitable for the bacterium, but there is not enough vector presence to propagate it and produce an outbreak. Nevertheless, the vector climatic suitability is only a proxy for vector presence and abundance, and the values come from a correlative model (SDM), so it is not the more robust part of our model. In other words, if vector abundance in this zones was underestimated by the SDM, then it could be a risk zone in practice.</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/risk-portugal-complete.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/risk-portugal-complete.png" style="width:100%" />
+</p>
 
-&lt;p align=&quot;left&quot;&gt;
-&lt;b&gt;Fig. 3&lt;/b&gt;. &lt;b&gt;(A)&lt;/b&gt; Climatic suitability of Xf. &lt;b&gt;(B)&lt;/b&gt; Climatic suitability for the main European vector, &lt;i&gt;Philaenus spumarius&lt;/i&gt;. &lt;b&gt;(C)&lt;/b&gt; Risk index. &lt;b&gt;(D)&lt;/b&gt; Risk zones. Again, the blue demarked zone corresponds to the zone of the recently detected outbreak while white circles correspond to previous detections.
-&lt;/p&gt;
+<p align="left">
+<b>Fig. 3</b>. <b>(A)</b> Climatic suitability of Xf. <b>(B)</b> Climatic suitability for the main European vector, <i>Philaenus spumarius</i>. <b>(C)</b> Risk index. <b>(D)</b> Risk zones. Again, the blue demarked zone corresponds to the zone of the recently detected outbreak while white circles correspond to previous detections.
+</p>
 
-&lt;p&gt;We can even go further with our model and try to assess the risk of PD establishment in Galicia. In &lt;strong&gt;Fig. 3&lt;/strong&gt; we show the climatic suitability of Xf (&lt;strong&gt;Fig. 3A&lt;/strong&gt;), the vector climatic suitability (&lt;strong&gt;Fig. 3B&lt;/strong&gt;), the risk index (&lt;strong&gt;Fig. 3C&lt;/strong&gt;) and the risk zones (&lt;strong&gt;Fig. 3D&lt;/strong&gt;) for both Portugal and Galicia. Similarly to the previous reasoning, we can argue that the probability of having a major PD outbreak in Galicia is low. Although the vector is abundant, we observe that the region is not in general climatically suitable for the bacterium. However, note that this is not the case for the surroundings of the Miño river and the western coast, so most of the prevention efforts should be focused on these zones. Furthermore, climate change will for sure alter the climatic suitability of Xf in these zones, making them more suitable, but this is a topic for another day!&lt;/p&gt;
+<p>We can even go further with our model and try to assess the risk of PD establishment in Galicia. In <strong>Fig. 3</strong> we show the climatic suitability of Xf (<strong>Fig. 3A</strong>), the vector climatic suitability (<strong>Fig. 3B</strong>), the risk index (<strong>Fig. 3C</strong>) and the risk zones (<strong>Fig. 3D</strong>) for both Portugal and Galicia. Similarly to the previous reasoning, we can argue that the probability of having a major PD outbreak in Galicia is low. Although the vector is abundant, we observe that the region is not in general climatically suitable for the bacterium. However, note that this is not the case for the surroundings of the Miño river and the western coast, so most of the prevention efforts should be focused on these zones. Furthermore, climate change will for sure alter the climatic suitability of Xf in these zones, making them more suitable, but this is a topic for another day!</p>
 
-&lt;p&gt;I hope to have convinced you not only of the predicting power of our model but also of its high explainability. By now, I think that the latter is one of the most valuable features of mechanistic models that still can not be achieved with correlative ones, i.e. Artificial intelligence.&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html">A new *Xylella fastidiosa* outbreak has been detected in Portugal. What can our recently developed model say about it?</summary></entry><entry><title type="html">Global predictions for the risk of establishment of Pierce’s disease of grapevines</title><link href="http://localhost:4000/outreach/communications-biology/" rel="alternate" type="text/html" title="Global predictions for the risk of establishment of Pierce’s disease of grapevines" /><published>2022-12-20T00:00:00-05:00</published><updated>2022-12-20T00:00:00-05:00</updated><id>http://localhost:4000/outreach/communications-biology</id><content type="html" xml:base="http://localhost:4000/outreach/communications-biology/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<p>I hope to have convinced you not only of the predicting power of our model but also of its high explainability. By now, I think that the latter is one of the most valuable features of mechanistic models that still can not be achieved with correlative ones, i.e. Artificial intelligence.</p>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html"><![CDATA[A new *Xylella fastidiosa* outbreak has been detected in Portugal. What can our recently developed model say about it?]]></summary></entry><entry><title type="html">Global predictions for the risk of establishment of Pierce’s disease of grapevines</title><link href="http://localhost:4000/outreach/communications-biology/" rel="alternate" type="text/html" title="Global predictions for the risk of establishment of Pierce’s disease of grapevines" /><published>2022-12-20T00:00:00-05:00</published><updated>2022-12-20T00:00:00-05:00</updated><id>http://localhost:4000/outreach/communications-biology</id><content type="html" xml:base="http://localhost:4000/outreach/communications-biology/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
-&lt;p&gt;Pierce’s disease (PD) of grapevines is nowadays considered a potential major threat to winegrowers worldwide, causing huge economic losses that add up to more than 100$ milion in California alone. The causal agent of PD, the bacterium Xylella fastidiosa (Xf), is native to the Americas where it also causes vector-borne diseases on many economically important crops, such as citrus, almond, coffee and olive trees. In Europe, despite strict quarantine measures to protect the wine industry, PD has recently been established for the first time in vineyards on the island of Majorca, Spain. This finding, alongside the detection of PD in Taiwan, has raised concerns about its possible spread to continental Europe and other wine-producing regions worldwide.&lt;/p&gt;
+<p>Pierce’s disease (PD) of grapevines is nowadays considered a potential major threat to winegrowers worldwide, causing huge economic losses that add up to more than 100$ milion in California alone. The causal agent of PD, the bacterium Xylella fastidiosa (Xf), is native to the Americas where it also causes vector-borne diseases on many economically important crops, such as citrus, almond, coffee and olive trees. In Europe, despite strict quarantine measures to protect the wine industry, PD has recently been established for the first time in vineyards on the island of Majorca, Spain. This finding, alongside the detection of PD in Taiwan, has raised concerns about its possible spread to continental Europe and other wine-producing regions worldwide.</p>
 
-&lt;p&gt;A key trait of Xf’s invasive potential is its capacity of being transmitted non-specifically by xylem sap-feeding insects. Recently, the role of the meadow spittlebug, &lt;em&gt;Philaenus spumarius&lt;/em&gt;, in the transmission of Xf in Europe has been confirmed. Furthermore, PD is a thermal-sensitive disease, with the temperature being a range-limiting factor. Several works have attempted to predict the potential geographic range of the Xf in Europe and worldwide using bioclimatic correlative species distribution models (SDMs). However, none of these works has explicitly included information on vectors’ distribution or disease dynamics. They hence provide little epidemiological insight into the underlying environmental causes underpinning or limiting a potential invasion. An alternative to overcome these limitations is to develop mechanistic models based on the physiology of the pathogen, coupled with epidemiological models that consider the disease dynamics while avoiding the difficulties of including transmission parameters for each of the PD potential vectors. In this work, we present a temperature-driven dynamic epidemiological model to infer where PD would have become endemic in different wine-growing regions worldwide from 1981 onward if we forced the introduction of Xf-infected plants. We show that transmission models based on the spatial distribution of the vector population (e.g. &lt;em&gt;Philaenus spumarius&lt;/em&gt; in Europe) linked to temperature-driven frameworks accounting for Xf within host survival are key to develop accurate models for risk assesment.&lt;/p&gt;
+<p>A key trait of Xf’s invasive potential is its capacity of being transmitted non-specifically by xylem sap-feeding insects. Recently, the role of the meadow spittlebug, <em>Philaenus spumarius</em>, in the transmission of Xf in Europe has been confirmed. Furthermore, PD is a thermal-sensitive disease, with the temperature being a range-limiting factor. Several works have attempted to predict the potential geographic range of the Xf in Europe and worldwide using bioclimatic correlative species distribution models (SDMs). However, none of these works has explicitly included information on vectors’ distribution or disease dynamics. They hence provide little epidemiological insight into the underlying environmental causes underpinning or limiting a potential invasion. An alternative to overcome these limitations is to develop mechanistic models based on the physiology of the pathogen, coupled with epidemiological models that consider the disease dynamics while avoiding the difficulties of including transmission parameters for each of the PD potential vectors. In this work, we present a temperature-driven dynamic epidemiological model to infer where PD would have become endemic in different wine-growing regions worldwide from 1981 onward if we forced the introduction of Xf-infected plants. We show that transmission models based on the spatial distribution of the vector population (e.g. <em>Philaenus spumarius</em> in Europe) linked to temperature-driven frameworks accounting for Xf within host survival are key to develop accurate models for risk assesment.</p>
 
-&lt;h2 id=&quot;the-model&quot;&gt;The model&lt;/h2&gt;
+<h2 id="the-model">The model</h2>
 
-&lt;h3 id=&quot;the-effect-of-temperature-on-the-symptom-development-process---a-mechanistic-model-of-xf-climatic-suitability&quot;&gt;The effect of temperature on the symptom development process - A mechanistic model of Xf climatic suitability&lt;/h3&gt;
+<h3 id="the-effect-of-temperature-on-the-symptom-development-process---a-mechanistic-model-of-xf-climatic-suitability">The effect of temperature on the symptom development process - A mechanistic model of Xf climatic suitability</h3>
 
-&lt;p&gt;We performed several inoculation assays to 36 grapevine varieties to elucidate the effect of temperature on the symptom development process. Basically, the plants where inoculated with the bacterium and the development of symptoms (as a binary outcome) was tracked in time. This experiments, together with previously measured data of Xf growth as a function of temperature, allowed us to develop a mechanistic framework capable to describe the symptom development process only from temperature data. The general idea is that, by knowing how fast bacteria grow at different temperatures, one can compute an approximation to the bacterial load of infected plants over a given time period if temperature data is available &lt;strong&gt;(Fig. 1a)&lt;/strong&gt;. Then, thanks to the inoculation assays, this approximated bacterial load (MGDD) can be translated into a probability of developing symptoms &lt;strong&gt;(Fig. 1c)&lt;/strong&gt;.&lt;/p&gt;
+<p>We performed several inoculation assays to 36 grapevine varieties to elucidate the effect of temperature on the symptom development process. Basically, the plants where inoculated with the bacterium and the development of symptoms (as a binary outcome) was tracked in time. This experiments, together with previously measured data of Xf growth as a function of temperature, allowed us to develop a mechanistic framework capable to describe the symptom development process only from temperature data. The general idea is that, by knowing how fast bacteria grow at different temperatures, one can compute an approximation to the bacterial load of infected plants over a given time period if temperature data is available <strong>(Fig. 1a)</strong>. Then, thanks to the inoculation assays, this approximated bacterial load (MGDD) can be translated into a probability of developing symptoms <strong>(Fig. 1c)</strong>.</p>
 
-&lt;p&gt;However, this is not the end of the story, as cold enough temperatures can then kill bacteria from infected plants! PD is very rarely found in zones in which the minimum average temperature of the coldest month (\(T_{min}\)) is below -1.1ºC, limiting its geographic expansion in the US. We then used this information to relate cold accumulation (CDD) to plant survival, or what is the same, to the probability of recovering from infection &lt;strong&gt;(Fig. 1b, Fig 1c)&lt;/strong&gt;. Finally, by combining symptom development and recovery, we developed a unified framework to model where PD can thrive or not given a particular weather. In essence, we just built a mechanistic model of climatic suitability for Xf within its grapevine hosts &lt;strong&gt;(Fig 1d)&lt;/strong&gt;.&lt;/p&gt;
+<p>However, this is not the end of the story, as cold enough temperatures can then kill bacteria from infected plants! PD is very rarely found in zones in which the minimum average temperature of the coldest month (\(T_{min}\)) is below -1.1ºC, limiting its geographic expansion in the US. We then used this information to relate cold accumulation (CDD) to plant survival, or what is the same, to the probability of recovering from infection <strong>(Fig. 1b, Fig 1c)</strong>. Finally, by combining symptom development and recovery, we developed a unified framework to model where PD can thrive or not given a particular weather. In essence, we just built a mechanistic model of climatic suitability for Xf within its grapevine hosts <strong>(Fig 1d)</strong>.</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/climatic_layer.png&quot; style=&quot;width:80%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/climatic_layer.png" style="width:80%" />
+</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;b&gt;Fig. 1&lt;/b&gt;. Scheme of the mechanistic climatic suitability model.
-&lt;/p&gt;
+<p align="center">
+<b>Fig. 1</b>. Scheme of the mechanistic climatic suitability model.
+</p>
 
-&lt;h3 id=&quot;the-disease-transmission-model---integrating-the-spatial-distribution-of-the-vector&quot;&gt;The disease transmission model - Integrating the spatial distribution of the vector&lt;/h3&gt;
+<h3 id="the-disease-transmission-model---integrating-the-spatial-distribution-of-the-vector">The disease transmission model - Integrating the spatial distribution of the vector</h3>
 
-&lt;p&gt;Obviously, there will not be any risk of having the disease in a place where transmission from infected to susceptible plants cannot occur, even if the weather is perfectly suitable for the bacteria. To take this into account, we developed a compartmental model for vector-borne diseases suitable to describe Xf related diseases. This kind of models are customary used in mathematical studies of epidemic spreading &lt;a href=&quot;/outreach/ecological-modelling/&quot;&gt;(read this post for an introduction)&lt;/a&gt;. The most important parameter of the model is the so-called &lt;em&gt;Basic Reproductive Number&lt;/em&gt;, \(R_0\), which measures the average number of secondary infections produced by an initial infected plant in a fully susceptible population. In our case, the Basic Reproductive Number is given by&lt;/p&gt;
+<p>Obviously, there will not be any risk of having the disease in a place where transmission from infected to susceptible plants cannot occur, even if the weather is perfectly suitable for the bacteria. To take this into account, we developed a compartmental model for vector-borne diseases suitable to describe Xf related diseases. This kind of models are customary used in mathematical studies of epidemic spreading <a href="/outreach/ecological-modelling/">(read this post for an introduction)</a>. The most important parameter of the model is the so-called <em>Basic Reproductive Number</em>, \(R_0\), which measures the average number of secondary infections produced by an initial infected plant in a fully susceptible population. In our case, the Basic Reproductive Number is given by</p>
 
 \[R_0 = \frac{\beta\alpha}{\gamma\mu}\frac{N_v}{N_H}\]
 
-&lt;p&gt;The important thing of the formula is that \(R_0\) depends linearly on $N_V$, the vector abundance. Thus, the more abundant the vector is in a given zone, the easier it will be for the disease to spread. This allows to include information of the spatial distribution and abundance of the vector in our model.&lt;/p&gt;
+<p>The important thing of the formula is that \(R_0\) depends linearly on $N_V$, the vector abundance. Thus, the more abundant the vector is in a given zone, the easier it will be for the disease to spread. This allows to include information of the spatial distribution and abundance of the vector in our model.</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/Transmission_layer.png&quot; style=&quot;width:70%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/Transmission_layer.png" style="width:70%" />
+</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;b&gt;Fig. 2&lt;/b&gt;. Representation of the transmission model.
-&lt;/p&gt;
+<p align="center">
+<b>Fig. 2</b>. Representation of the transmission model.
+</p>
 
-&lt;h3 id=&quot;a-temperature-driven-dynamic-epidemiological-model-for-pd-risk-assesment&quot;&gt;A temperature-driven dynamic epidemiological model for PD risk assesment&lt;/h3&gt;
+<h3 id="a-temperature-driven-dynamic-epidemiological-model-for-pd-risk-assesment">A temperature-driven dynamic epidemiological model for PD risk assesment</h3>
 
-&lt;p&gt;Finally, we had all the pieces to develop our complete model on PD risk. Information on the spatial distribution and abundance of the vector allow us to know how many new infected plants will an infected plant contribute to infect, while temperature data allow us to know how many of these new infections will indeed thrive. So only if this balance is positive, and mantained in time, an outbreak will occur. By joining the climatic suitability and transmission model in a single framework, we could develop our complete model for PD risk assessment. Indeed, the model can be summarised in a single simple equation for each location &lt;strong&gt;j&lt;/strong&gt; under study&lt;/p&gt;
+<p>Finally, we had all the pieces to develop our complete model on PD risk. Information on the spatial distribution and abundance of the vector allow us to know how many new infected plants will an infected plant contribute to infect, while temperature data allow us to know how many of these new infections will indeed thrive. So only if this balance is positive, and mantained in time, an outbreak will occur. By joining the climatic suitability and transmission model in a single framework, we could develop our complete model for PD risk assessment. Indeed, the model can be summarised in a single simple equation for each location <strong>j</strong> under study</p>
 
 \[I_j(t)=\underbrace{I_j(t-1) \, e^{\gamma \, (R_0(j)-1)}}_\text{transmission layer}    \overbrace{\Pi_j(t)}^\text{climatic layer} \ ,\]
 
-&lt;p&gt;from which we define the risk index as&lt;/p&gt;
+<p>from which we define the risk index as</p>
 
 \[r_j=\textrm{max}\left\{\frac{\log(I_j(\mathcal{T})/I_j(t_0))}{\gamma\, (R_0(j)-1)\, \mathcal{T}}, -1 \right\} \ .\]
 
-&lt;p&gt;The idea behind these equations is very simple. The first one computes the evolution of the infected population given a particular \(R_0\) (influenced by the vector abundance) and given a particular weather (\(\Pi(t)\)). The second one only standarizes the result of the former by dividing the infected population by its theoretical maximum (given by the epidemic process in optimal climatic conditions, \(\Pi(t)=1\)).&lt;/p&gt;
+<p>The idea behind these equations is very simple. The first one computes the evolution of the infected population given a particular \(R_0\) (influenced by the vector abundance) and given a particular weather (\(\Pi(t)\)). The second one only standarizes the result of the former by dividing the infected population by its theoretical maximum (given by the epidemic process in optimal climatic conditions, \(\Pi(t)=1\)).</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/Transmission_layer_2.png&quot; style=&quot;width:70%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/Transmission_layer_2.png" style="width:70%" />
+</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;b&gt;Fig. 3&lt;/b&gt;. Representation of the risk index.
-&lt;/p&gt;
+<p align="center">
+<b>Fig. 3</b>. Representation of the risk index.
+</p>
 
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+<h2 id="results">Results</h2>
 
-&lt;p&gt;Once the model was developed, we proceeded to its calibration with spatiotemporal data on PD presence/absence in the US and Europe, which provided very nice results. Afterwads, it was ready to use! In &lt;strong&gt;Fig. 4&lt;/strong&gt; you can see the results of the model after its application in several wine-producing regions worldwide. For these locations, the information of the vector spatial distribution is missing, so that we used a fixed and homogeneous transmission scenario given by \(R_0=5\) (which was the value found for Europe).&lt;/p&gt;
+<p>Once the model was developed, we proceeded to its calibration with spatiotemporal data on PD presence/absence in the US and Europe, which provided very nice results. Afterwads, it was ready to use! In <strong>Fig. 4</strong> you can see the results of the model after its application in several wine-producing regions worldwide. For these locations, the information of the vector spatial distribution is missing, so that we used a fixed and homogeneous transmission scenario given by \(R_0=5\) (which was the value found for Europe).</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/Fig_global_risk_R0_5.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/Fig_global_risk_R0_5.png" style="width:100%" />
+</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;b&gt;Fig. 4&lt;/b&gt;. Risk indices for different wine-growing regions worldwide using a fixed and homogeneous transmission scenario.
-&lt;/p&gt;
+<p align="center">
+<b>Fig. 4</b>. Risk indices for different wine-growing regions worldwide using a fixed and homogeneous transmission scenario.
+</p>
 
-&lt;p&gt;Nevertheless, information of the spatial distribution and abundance of the vector is indeed available for Europe. After incorporating it into the model (using different values of \(R_0\) for different locations) we found a drastic diminish of the risk, showing that there is no enough vectors in many climatic suitable regions for Xf to actually spread. Furthermore, the results accurately represented the currently affected zones as zones with high risk indices.&lt;/p&gt;
+<p>Nevertheless, information of the spatial distribution and abundance of the vector is indeed available for Europe. After incorporating it into the model (using different values of \(R_0\) for different locations) we found a drastic diminish of the risk, showing that there is no enough vectors in many climatic suitable regions for Xf to actually spread. Furthermore, the results accurately represented the currently affected zones as zones with high risk indices.</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/Viñedos_Europa.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/p&gt;
+<p align="center">
+<img src="/assets/images/Viñedos_Europa.png" style="width:100%" />
+</p>
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;b&gt;Fig. 5&lt;/b&gt;. Risk indices for European vineyards using a heterogeneous transmission scenario.
-&lt;/p&gt;
+<p align="center">
+<b>Fig. 5</b>. Risk indices for European vineyards using a heterogeneous transmission scenario.
+</p>
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+<h2 id="conclusion">Conclusion</h2>
 
-&lt;p&gt;Our results are quite accurate, e.g. precisely representing the actual distribution of Xf-affected zones in Europe, but this is not for me the best part of our work. Perhaps as a physicist, I mostly like to admire the theoretical consistency and meaningfulness of some models, which I think is a strong point of ours. Although some other correlative models (e.g. AI) could perhaps equal the accuracy and predicting power of our mechanistic model, the fact that we can explain the fundamental factors that allow or not the expansion of PD is priceless.&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html">We develop a temperature-driven dynamic epidemiological model to infer the risk of Pierce&apos;s disease in different wine-growing regions worldwide.</summary></entry><entry><title type="html">The 54 highest points of the Tramuntana</title><link href="http://localhost:4000/projects/54-miles/" rel="alternate" type="text/html" title="The 54 highest points of the Tramuntana" /><published>2022-12-10T00:00:00-05:00</published><updated>2022-12-10T00:00:00-05:00</updated><id>http://localhost:4000/projects/54-miles</id><content type="html" xml:base="http://localhost:4000/projects/54-miles/">&lt;p&gt;One of my personal “challenges” during my PhD in Mallorca is to reach the 54 highest points in Mallorca, which are higher than 1000 m. Below you can find an interactive map with the locations of all this points and you can find its name and height by clicking the icons.&lt;/p&gt;
+<p>Our results are quite accurate, e.g. precisely representing the actual distribution of Xf-affected zones in Europe, but this is not for me the best part of our work. Perhaps as a physicist, I mostly like to admire the theoretical consistency and meaningfulness of some models, which I think is a strong point of ours. Although some other correlative models (e.g. AI) could perhaps equal the accuracy and predicting power of our mechanistic model, the fact that we can explain the fundamental factors that allow or not the expansion of PD is priceless.</p>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html"><![CDATA[We develop a temperature-driven dynamic epidemiological model to infer the risk of Pierce's disease in different wine-growing regions worldwide.]]></summary></entry><entry><title type="html">The 54 highest points of the Tramuntana</title><link href="http://localhost:4000/projects/54-miles/" rel="alternate" type="text/html" title="The 54 highest points of the Tramuntana" /><published>2022-12-10T00:00:00-05:00</published><updated>2022-12-10T00:00:00-05:00</updated><id>http://localhost:4000/projects/54-miles</id><content type="html" xml:base="http://localhost:4000/projects/54-miles/"><![CDATA[<p>One of my personal “challenges” during my PhD in Mallorca is to reach the 54 highest points in Mallorca, which are higher than 1000 m. Below you can find an interactive map with the locations of all this points and you can find its name and height by clicking the icons.</p>
 
-&lt;iframe src=&quot;/assets/images/54-miles.html&quot; width=&quot;900&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<iframe src="/assets/images/54-miles.html" width="900" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 
-&lt;h3 id=&quot;the-list-of-the-54-highest-points-in-mallorca&quot;&gt;The list of the 54 highest points in Mallorca&lt;/h3&gt;
+<h3 id="the-list-of-the-54-highest-points-in-mallorca">The list of the 54 highest points in Mallorca</h3>
 
-&lt;p&gt;This is the list of the 54 highest points in Mallorca with their name and height. The ones underlined and coloured in blue have a link to a Wikiloc trail in which I recorded the hike. Check them out!&lt;/p&gt;
+<p>This is the list of the 54 highest points in Mallorca with their name and height. The ones underlined and coloured in blue have a link to a Wikiloc trail in which I recorded the hike. Check them out!</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Puig Major (1447m)&lt;/li&gt;
-  &lt;li&gt;Puig Major espolón NE (1416m)&lt;/li&gt;
-  &lt;li&gt;Penyal des Migdia (1398m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597&quot;&gt;Puig de Massanella (1367m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/penyal-des-migdia-64110938&quot;&gt;Penyal des Migdia W (1356m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597&quot;&gt;Puig de Massanella espolón S (1352m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Morró d’en Pelut (1319m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794&quot;&gt;Serra des Teixos E (1258m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Pa de Figa de Son Torrella (1256m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794&quot;&gt;Serra des Teixos W (1239m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-ses-bassetes-93507395&quot;&gt;Puig de ses Bassetes (1216m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Agulla des Frare (1205m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig de sa Mola (1188m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig den Galileu (1182m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Puig des Prat (1169m)&lt;/li&gt;
-  &lt;li&gt;Serra de Son Torrella N (1123m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Puig des Tossals Verds (1115m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta N (1113m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Puig de ses Vinyes (1108m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933&quot;&gt;Puig Tomir (1104m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Puig des Tossals Verds S (1097m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de l’Ofre(1093m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta S (1085m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;(https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933)&quot;&gt;Puig Tomir espolón SW (1083m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Serra de Son Torrella S (1079m)&lt;/li&gt;
-  &lt;li&gt;Serra de Son Torrella Central (1079m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Font E (1071m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Puig d’Alfàbia (1067m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de na Franquesa (1067m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198&quot;&gt;Puig Teixot (1065m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-des-teix-63677939&quot;&gt;Puig des Teix (1064m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973&quot;&gt;Es Frontó de Comafreda (1061m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx E (1058m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Sa Trona (1058m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Torre (1058m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Serra de na Rius (1057m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx Central (1055m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Penya de s’Anyell (1053m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-des-coll-des-jou-89390236&quot;&gt;Puig des Coll des Jou (1052m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia N (1044m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673&quot;&gt;Morró d’Almallutx W (1042m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-nali-100945878&quot;&gt;Puig de n’ali (1035m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737&quot;&gt;Puig de sa Font W (1028m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486&quot;&gt;Puig de sa Rateta E (1027m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-galatzo-87921462&quot;&gt;Puig de Galatzo (1027m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia S (1025m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Puig de Son Nebot (1025m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Puig des Sementer Gran (1013m)&lt;/li&gt;
-  &lt;li&gt;Espolón Xaragall de sa Camamilla (1013m)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669&quot;&gt;Es frontó de sa Mola (1009m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654&quot;&gt;Serra d’Alfàbia Central (1005m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198&quot;&gt;Puig des Vent (1005m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973&quot;&gt;Puig de la Criaça d’Alt (1004m)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/puig-roig-88352125&quot;&gt;Puig Roig (1003m)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html">One of my personal challenges during my PhD in Mallorca!</summary></entry><entry><title type="html">Sa Travessa</title><link href="http://localhost:4000/projects/sa-travessa/" rel="alternate" type="text/html" title="Sa Travessa" /><published>2022-12-03T00:00:00-05:00</published><updated>2022-12-03T00:00:00-05:00</updated><id>http://localhost:4000/projects/sa-travessa</id><content type="html" xml:base="http://localhost:4000/projects/sa-travessa/">&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-profile.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li>Puig Major (1447m)</li>
+  <li>Puig Major espolón NE (1416m)</li>
+  <li>Penyal des Migdia (1398m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597">Puig de Massanella (1367m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/penyal-des-migdia-64110938">Penyal des Migdia W (1356m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-massanelles-44295597">Puig de Massanella espolón S (1352m)</a></li>
+  <li>Morró d’en Pelut (1319m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794">Serra des Teixos E (1258m)</a></li>
+  <li>Pa de Figa de Son Torrella (1256m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/serra-des-teixos-66856794">Serra des Teixos W (1239m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-ses-bassetes-93507395">Puig de ses Bassetes (1216m)</a></li>
+  <li>Agulla des Frare (1205m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669">Puig de sa Mola (1188m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669">Puig den Galileu (1182m)</a></li>
+  <li>Puig des Prat (1169m)</li>
+  <li>Serra de Son Torrella N (1123m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673">Puig des Tossals Verds (1115m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486">Puig de sa Rateta N (1113m)</a></li>
+  <li>Puig de ses Vinyes (1108m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933">Puig Tomir (1104m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673">Puig des Tossals Verds S (1097m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486">Puig de l’Ofre(1093m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486">Puig de sa Rateta S (1085m)</a></li>
+  <li><a href="(https://es.wikiloc.com/rutas-senderismo/puig-tomir-45393933)">Puig Tomir espolón SW (1083m)</a></li>
+  <li>Serra de Son Torrella S (1079m)</li>
+  <li>Serra de Son Torrella Central (1079m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737">Puig de sa Font E (1071m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654">Puig d’Alfàbia (1067m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486">Puig de na Franquesa (1067m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198">Puig Teixot (1065m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-des-teix-63677939">Puig des Teix (1064m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973">Es Frontó de Comafreda (1061m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673">Morró d’Almallutx E (1058m)</a></li>
+  <li>Sa Trona (1058m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737">Puig de sa Torre (1058m)</a></li>
+  <li>Serra de na Rius (1057m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673">Morró d’Almallutx Central (1055m)</a></li>
+  <li>Penya de s’Anyell (1053m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-des-coll-des-jou-89390236">Puig des Coll des Jou (1052m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654">Serra d’Alfàbia N (1044m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-des-tossals-verds-morro-dalmallutx-via-ferrata-57970673">Morró d’Almallutx W (1042m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-nali-100945878">Puig de n’ali (1035m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/cuber-puig-de-sa-font-puig-de-sa-torre-115030737">Puig de sa Font W (1028m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-sa-rateta-puig-de-na-franquesa-i-puig-de-lorfe-60904486">Puig de sa Rateta E (1027m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-galatzo-87921462">Puig de Galatzo (1027m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654">Serra d’Alfàbia S (1025m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669">Puig de Son Nebot (1025m)</a></li>
+  <li>Puig des Sementer Gran (1013m)</li>
+  <li>Espolón Xaragall de sa Camamilla (1013m)</li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-de-son-nebot-fronto-de-sa-mola-sa-mola-puig-galileu-94656669">Es frontó de sa Mola (1009m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/soller-antenes-puig-de-dalfabia-biniaraix-66328654">Serra d’Alfàbia Central (1005m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/deia-puig-de-sa-galera-puig-des-vent-puig-des-teixot-puih-des-teix-deia-116384198">Puig des Vent (1005m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/fronto-de-comafreda-i-puig-de-sa-crianca-dalt-117768973">Puig de la Criaça d’Alt (1004m)</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/puig-roig-88352125">Puig Roig (1003m)</a></li>
+</ul>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html"><![CDATA[One of my personal challenges during my PhD in Mallorca!]]></summary></entry><entry><title type="html">Sa Travessa</title><link href="http://localhost:4000/projects/sa-travessa/" rel="alternate" type="text/html" title="Sa Travessa" /><published>2022-12-03T00:00:00-05:00</published><updated>2022-12-03T00:00:00-05:00</updated><id>http://localhost:4000/projects/sa-travessa</id><content type="html" xml:base="http://localhost:4000/projects/sa-travessa/"><![CDATA[<p><img src="/assets/images/sa-travessa-profile.png" alt="" /></p>
 
-&lt;p&gt;After almost three years in Mallorca, I finally carried out “Sa Travessa”, a several days hike from side to side of the Tramuntana mountain range. I had the pleasure to share this experience with some friends who also enjoy hiking: Pablo, María, Lorena and Carmela. Other friends like Bea, Medea and Luli came also to some of the stages, which was somehow refreshing!&lt;/p&gt;
+<p>After almost three years in Mallorca, I finally carried out “Sa Travessa”, a several days hike from side to side of the Tramuntana mountain range. I had the pleasure to share this experience with some friends who also enjoy hiking: Pablo, María, Lorena and Carmela. Other friends like Bea, Medea and Luli came also to some of the stages, which was somehow refreshing!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-people-names.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/sa-travessa-people-names.png" alt="" /></p>
 
-&lt;p&gt;The trip started at Calvià on Saturday 3rd of December of 2022 and finished at Port de Pollença the Thursday 8th of December after 6 days with almost 120 Km walked and 5000 m of elevation gained. We divided the long hike into 6 stages, which are summarised in the table below:&lt;/p&gt;
+<p>The trip started at Calvià on Saturday 3rd of December of 2022 and finished at Port de Pollença the Thursday 8th of December after 6 days with almost 120 Km walked and 5000 m of elevation gained. We divided the long hike into 6 stages, which are summarised in the table below:</p>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Distance&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Elevation Gain&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Elevation Loss&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Moving Time&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Total Time&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Calvià-Esporles&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;24 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;892 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;819 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5h 52min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8h 39min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Esporles-Deià&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;23 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1340 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1390 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6h 25min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8h 45min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Deià-Tossals Verds&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;28 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1683 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1283 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7h 48min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10h 49min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Tossals Verds-Lluc&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;783 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;914 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4h 42min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7h 28min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Lluc-Pollença&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;188 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;668 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4h 57min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7h 22min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Pollença-Port de Pollença&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7 Km&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;50 m&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1h 25min&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1h 30min&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>Stage</strong></th>
+      <th style="text-align: center"><strong>Distance</strong></th>
+      <th style="text-align: center"><strong>Elevation Gain</strong></th>
+      <th style="text-align: center"><strong>Elevation Loss</strong></th>
+      <th style="text-align: center"><strong>Moving Time</strong></th>
+      <th style="text-align: center"><strong>Total Time</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Calvià-Esporles</td>
+      <td style="text-align: center">24 Km</td>
+      <td style="text-align: center">892 m</td>
+      <td style="text-align: center">819 m</td>
+      <td style="text-align: center">5h 52min</td>
+      <td style="text-align: center">8h 39min</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Esporles-Deià</td>
+      <td style="text-align: center">23 Km</td>
+      <td style="text-align: center">1340 m</td>
+      <td style="text-align: center">1390 m</td>
+      <td style="text-align: center">6h 25min</td>
+      <td style="text-align: center">8h 45min</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Deià-Tossals Verds</td>
+      <td style="text-align: center">28 Km</td>
+      <td style="text-align: center">1683 m</td>
+      <td style="text-align: center">1283 m</td>
+      <td style="text-align: center">7h 48min</td>
+      <td style="text-align: center">10h 49min</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Tossals Verds-Lluc</td>
+      <td style="text-align: center">16 Km</td>
+      <td style="text-align: center">783 m</td>
+      <td style="text-align: center">914 m</td>
+      <td style="text-align: center">4h 42min</td>
+      <td style="text-align: center">7h 28min</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Lluc-Pollença</td>
+      <td style="text-align: center">18 Km</td>
+      <td style="text-align: center">188 m</td>
+      <td style="text-align: center">668 m</td>
+      <td style="text-align: center">4h 57min</td>
+      <td style="text-align: center">7h 22min</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Pollença-Port de Pollença</td>
+      <td style="text-align: center">7 Km</td>
+      <td style="text-align: center">0 m</td>
+      <td style="text-align: center">50 m</td>
+      <td style="text-align: center">1h 25min</td>
+      <td style="text-align: center">1h 30min</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;Certainly the first three stages were quite intense!&lt;/p&gt;
+<p>Certainly the first three stages were quite intense!</p>
 
-&lt;p&gt;Nevertheless, we had plenty of time to enjoy the beautiful views and do some crazy things…&lt;/p&gt;
+<p>Nevertheless, we had plenty of time to enjoy the beautiful views and do some crazy things…</p>
 
-&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qMqN9DvjM8g&quot;&gt;
-&lt;/iframe&gt;
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qMqN9DvjM8g">
+</iframe>
 
-&lt;p&gt;As the geek I am, I decided to download the data from the Wikiloc trails that Carmela and Maria recorded and access it using Python with gpxpy library. Then I could plot the nice profile of the stages with few lines of code, look below!&lt;/p&gt;
+<p>As the geek I am, I decided to download the data from the Wikiloc trails that Carmela and Maria recorded and access it using Python with gpxpy library. Then I could plot the nice profile of the stages with few lines of code, look below!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/sa-travessa-etapas.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/sa-travessa-etapas.png" alt="" /></p>
 
-&lt;p&gt;Another cool thing I did is an interactive map of our full trip, showing the starting and ending point of each stage and the path we followed. Click on the red line to check the stats of each trail and click the title to go to the Wikiloc record!&lt;/p&gt;
+<p>Another cool thing I did is an interactive map of our full trip, showing the starting and ending point of each stage and the path we followed. Click on the red line to check the stats of each trail and click the title to go to the Wikiloc record!</p>
 
-&lt;iframe src=&quot;/assets/images/sa-travessa.html&quot; width=&quot;900&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<iframe src="/assets/images/sa-travessa.html" width="900" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 
-&lt;h3 id=&quot;wikiloc-trails&quot;&gt;Wikiloc trails:&lt;/h3&gt;
+<h3 id="wikiloc-trails">Wikiloc trails:</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/calvia-esporles-sa-travessa-segunda-etapa-120500172&quot;&gt;Calvià-Esporles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/esporles-deia-sa-travessa-3a-etapa-120600645&quot;&gt;Esporles-Deià&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/gr221-deia-tossals-120669697&quot;&gt;Deià-Tossals Verds&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/refugi-tossals-refugi-son-amer-lluc-120744823&quot;&gt;Tossals Verda-Lluc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/lluc-pollenca-120805345&quot;&gt;Lluc-Pollença&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://es.wikiloc.com/rutas-senderismo/sa-travessa-dia-6-6-refugi-pont-roma-pollenca-port-de-pollenca-120840705&quot;&gt;Pollença-Port de Pollença&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html">A several days hike from side to side of the Tramuntana!</summary></entry><entry><title type="html">Complex Systems Modelling in Ecology: emergent diseases and climate change</title><link href="http://localhost:4000/projects/PhD-thesis/" rel="alternate" type="text/html" title="Complex Systems Modelling in Ecology: emergent diseases and climate change" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/projects/PhD-thesis</id><content type="html" xml:base="http://localhost:4000/projects/PhD-thesis/">&lt;h2 id=&quot;complex-systems-modelling-in-ecology-emergent-diseases-and-climate-change&quot;&gt;Complex Systems Modelling in Ecology: emergent diseases and climate change&lt;/h2&gt;
+<ul>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/calvia-esporles-sa-travessa-segunda-etapa-120500172">Calvià-Esporles</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/esporles-deia-sa-travessa-3a-etapa-120600645">Esporles-Deià</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/gr221-deia-tossals-120669697">Deià-Tossals Verds</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/refugi-tossals-refugi-son-amer-lluc-120744823">Tossals Verda-Lluc</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/lluc-pollenca-120805345">Lluc-Pollença</a></li>
+  <li><a href="https://es.wikiloc.com/rutas-senderismo/sa-travessa-dia-6-6-refugi-pont-roma-pollenca-port-de-pollenca-120840705">Pollença-Port de Pollença</a></li>
+</ul>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><category term="hiking" /><summary type="html"><![CDATA[A several days hike from side to side of the Tramuntana!]]></summary></entry><entry><title type="html">Complex Systems Modelling in Ecology: emergent diseases and climate change</title><link href="http://localhost:4000/projects/PhD-thesis/" rel="alternate" type="text/html" title="Complex Systems Modelling in Ecology: emergent diseases and climate change" /><published>2021-10-01T00:00:00-04:00</published><updated>2021-10-01T00:00:00-04:00</updated><id>http://localhost:4000/projects/PhD-thesis</id><content type="html" xml:base="http://localhost:4000/projects/PhD-thesis/"><![CDATA[<h2 id="complex-systems-modelling-in-ecology-emergent-diseases-and-climate-change">Complex Systems Modelling in Ecology: emergent diseases and climate change</h2>
 
-&lt;p&gt;In this project we aim to study some currently threatened ecosystems by emergent diseases and climate change from the perspective of mathematical and computational ecology. In particular, we will focus on the following topics:&lt;/p&gt;
+<p>In this project we aim to study some currently threatened ecosystems by emergent diseases and climate change from the perspective of mathematical and computational ecology. In particular, we will focus on the following topics:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;The Mass Mortality Event of &lt;em&gt;Pinna nobilis&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>The Mass Mortality Event of <em>Pinna nobilis</em></li>
+</ul>
 
-&lt;p&gt;The parasite &lt;em&gt;H. pinnae&lt;/em&gt; is responsible for the Mass Mortality Event of the pen-shell &lt;em&gt;Pinna nobilis&lt;/em&gt;, an endemic filter-feeder bivalve of the Mediterranean sea. The first mortality events occurred in September 2016 in southeastern Spain and has since spread to all Spanish Mediterranean coasts, reaching France, Italy, Greece, Cyprus and other Mediterranean countries in less than two years. To date, data indicate that the protozoan species is specific to &lt;em&gt;P. nobilis&lt;/em&gt;, without affecting other invertebrates, including the congener species &lt;em&gt;P. rudis&lt;/em&gt;. The prevalence and consequent subsequent mortality reaches almost 100% in infected populations, an unprecedented figure given the precedents of similar epidemics in commercial bivalve species. Follow-up of the event has helped to better understand the spread of the disease, with surface currents being the main factor influencing local dispersal, while disease expression appears to be closely related to temperatures above 13.5ºC and salinity between 36.5-39.7 psu. This phenomenon has mainly affected the coastal ecosystems of the eastern Mediterranean Sea, introducing a serious risk of extinction of the species.&lt;/p&gt;
+<p>The parasite <em>H. pinnae</em> is responsible for the Mass Mortality Event of the pen-shell <em>Pinna nobilis</em>, an endemic filter-feeder bivalve of the Mediterranean sea. The first mortality events occurred in September 2016 in southeastern Spain and has since spread to all Spanish Mediterranean coasts, reaching France, Italy, Greece, Cyprus and other Mediterranean countries in less than two years. To date, data indicate that the protozoan species is specific to <em>P. nobilis</em>, without affecting other invertebrates, including the congener species <em>P. rudis</em>. The prevalence and consequent subsequent mortality reaches almost 100% in infected populations, an unprecedented figure given the precedents of similar epidemics in commercial bivalve species. Follow-up of the event has helped to better understand the spread of the disease, with surface currents being the main factor influencing local dispersal, while disease expression appears to be closely related to temperatures above 13.5ºC and salinity between 36.5-39.7 psu. This phenomenon has mainly affected the coastal ecosystems of the eastern Mediterranean Sea, introducing a serious risk of extinction of the species.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Diseases produced by &lt;em&gt;Xylella fastidiosa&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Diseases produced by <em>Xylella fastidiosa</em></li>
+</ul>
 
-&lt;p&gt;The bacterium &lt;em&gt;Xylella fastidiosa&lt;/em&gt; (Xf) is native to the Americas, where it causes vector-borne diseases such as those produced in many economically important crops, such as vineyards, citrus, almond, coffee and olive trees. Xf is phylogenetically subdivided into three formally recognized subspecies: &lt;em&gt;fastidiosa&lt;/em&gt;, &lt;em&gt;multiplex&lt;/em&gt; and &lt;em&gt;pauca&lt;/em&gt;, originally from Central America, North America and South America, respectively. Since 2013, several standard sequences of the three subspecies associated mainly with crop and ornamental plants have been detected in Europe; among these, the clonal lineage (ST1 / ST2) of the subsp. &lt;em&gt;fastidiosa&lt;/em&gt; responsible for the well-known diseases “Pierce Disease” (PD) and “Almond Leaf Scorch Disease” (ALSD). The epidemic situation is especially delicate in Mallorca, where the disease is widespread in almond and vineyard plantations, affecting 81% of almonds and more than 23 grape varieties. To date, xylem-sap feeder insects, such as sharpshooters leafhoppers and spittlebugs appear to be the main epidemiological relevant vectors for Xf-related diseases, being &lt;em&gt;Philaenus spumarius&lt;/em&gt; and &lt;em&gt;Neophilaenus campestris&lt;/em&gt; the main relevant vectors in Europe.&lt;/p&gt;
+<p>The bacterium <em>Xylella fastidiosa</em> (Xf) is native to the Americas, where it causes vector-borne diseases such as those produced in many economically important crops, such as vineyards, citrus, almond, coffee and olive trees. Xf is phylogenetically subdivided into three formally recognized subspecies: <em>fastidiosa</em>, <em>multiplex</em> and <em>pauca</em>, originally from Central America, North America and South America, respectively. Since 2013, several standard sequences of the three subspecies associated mainly with crop and ornamental plants have been detected in Europe; among these, the clonal lineage (ST1 / ST2) of the subsp. <em>fastidiosa</em> responsible for the well-known diseases “Pierce Disease” (PD) and “Almond Leaf Scorch Disease” (ALSD). The epidemic situation is especially delicate in Mallorca, where the disease is widespread in almond and vineyard plantations, affecting 81% of almonds and more than 23 grape varieties. To date, xylem-sap feeder insects, such as sharpshooters leafhoppers and spittlebugs appear to be the main epidemiological relevant vectors for Xf-related diseases, being <em>Philaenus spumarius</em> and <em>Neophilaenus campestris</em> the main relevant vectors in Europe.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Posidonia oceanica&lt;/em&gt; meadows&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><em>Posidonia oceanica</em> meadows</li>
+</ul>
 
-&lt;p&gt;&lt;em&gt;Posidonia oceanica&lt;/em&gt; is an endemic seagrass of the Mediterranean sea that forms the dominant ecosystem on its coastline. Posidonia meadows have an enormous ecological, economic and social importance, protecting the beaches from erosion, improving water quality, giving life support to numerous species, absorbing CO&lt;sub&gt;2&lt;/sub&gt;, etc. Nowadays, given its high sensitivity to temperature changes, this species is in decline in many areas of the Mediterranean. In addition, &lt;em&gt;P. oceanica&lt;/em&gt; coexists in the bed with &lt;em&gt;Cymodocea nodosa&lt;/em&gt;, another marine plant with greater tolerance to high temperatures. In a climate change context, the competition between both species will play a key role in how coastal marine ecosystems will change in the near future.&lt;/p&gt;
+<p><em>Posidonia oceanica</em> is an endemic seagrass of the Mediterranean sea that forms the dominant ecosystem on its coastline. Posidonia meadows have an enormous ecological, economic and social importance, protecting the beaches from erosion, improving water quality, giving life support to numerous species, absorbing CO<sub>2</sub>, etc. Nowadays, given its high sensitivity to temperature changes, this species is in decline in many areas of the Mediterranean. In addition, <em>P. oceanica</em> coexists in the bed with <em>Cymodocea nodosa</em>, another marine plant with greater tolerance to high temperatures. In a climate change context, the competition between both species will play a key role in how coastal marine ecosystems will change in the near future.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Coral reefs&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Coral reefs</li>
+</ul>
 
-&lt;p&gt;Coral reefs are one of the most biodiverse ecosystems in Earth, holding more than 25% of marine life with only 1% of ocean floor coverage. Corals are colonies of live organisms called polyps, held together by a self-produced exoskeleton made of calcium carbonate. Polyps host photosynthetic microalgae in a mutualistic interaction: polyps obtain nutrients from microalgae while microalgae are compensated with protection and some nutrients too. Consequences of global change, such as temperature increases and ocean acidification, represent a substantial threat to coral reef ecosystems. High ocean temperatures promote the “bleaching” phenomenon, in which individual polyps expel the microalgae symbionts, losing their characteristic color and getting rid of their primary source of nutrients. On the other hand, ocean acidification promotes the dissolution of the calcium carbonate exosquelet of corals.&lt;/p&gt;
+<p>Coral reefs are one of the most biodiverse ecosystems in Earth, holding more than 25% of marine life with only 1% of ocean floor coverage. Corals are colonies of live organisms called polyps, held together by a self-produced exoskeleton made of calcium carbonate. Polyps host photosynthetic microalgae in a mutualistic interaction: polyps obtain nutrients from microalgae while microalgae are compensated with protection and some nutrients too. Consequences of global change, such as temperature increases and ocean acidification, represent a substantial threat to coral reef ecosystems. High ocean temperatures promote the “bleaching” phenomenon, in which individual polyps expel the microalgae symbionts, losing their characteristic color and getting rid of their primary source of nutrients. On the other hand, ocean acidification promotes the dissolution of the calcium carbonate exosquelet of corals.</p>
 
-&lt;p&gt;Check my &lt;a href=&quot;/assets/docs/Plan_Tesis.pdf&quot;&gt;thesis plan&lt;/a&gt; for more detailed information!&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><summary type="html">This is my PhD thesis project!</summary></entry><entry><title type="html">Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*</title><link href="http://localhost:4000/outreach/ecological-modelling/" rel="alternate" type="text/html" title="Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*" /><published>2021-09-09T00:00:00-04:00</published><updated>2021-09-09T00:00:00-04:00</updated><id>http://localhost:4000/outreach/ecological-modelling</id><content type="html" xml:base="http://localhost:4000/outreach/ecological-modelling/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<p>Check my <a href="/assets/docs/Plan_Tesis.pdf">thesis plan</a> for more detailed information!</p>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Projects" /><summary type="html"><![CDATA[This is my PhD thesis project!]]></summary></entry><entry><title type="html">Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*</title><link href="http://localhost:4000/outreach/ecological-modelling/" rel="alternate" type="text/html" title="Modelling parasite-produced marine diseases - The case of the mass mortality event of *Pinna nobilis*" /><published>2021-09-09T00:00:00-04:00</published><updated>2021-09-09T00:00:00-04:00</updated><id>http://localhost:4000/outreach/ecological-modelling</id><content type="html" xml:base="http://localhost:4000/outreach/ecological-modelling/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
-&lt;p&gt;The noble fan mussel (&lt;em&gt;Pinna nobilis&lt;/em&gt;) is the largest endemic bivalve in the Mediterranean Sea, where it plays a crucial ecological role in its habitat by contributing to water clarity, being a habitat-forming species and even working as ecosystem engineers, creating biogenic reefs. Nowadays, &lt;em&gt;P. nobilis&lt;/em&gt; is under a serious extinction risk due to a Mass Mortality Event (MME) that has occurred throughout the whole Mediterranean basin very recently. The main cause of this mortality is the protozoan &lt;em&gt;Haplosporidium pinnae&lt;/em&gt;, which is spread by marine currents through the Mediterranean basin causing an epidemic (&lt;a href=&quot;#cabanellas2019&quot;&gt;M. Cabanellas-Reboredo 2019&lt;/a&gt;; &lt;a href=&quot;#catanese2018&quot;&gt;G. Catanese 2018&lt;/a&gt;).&lt;/p&gt;
+<p>The noble fan mussel (<em>Pinna nobilis</em>) is the largest endemic bivalve in the Mediterranean Sea, where it plays a crucial ecological role in its habitat by contributing to water clarity, being a habitat-forming species and even working as ecosystem engineers, creating biogenic reefs. Nowadays, <em>P. nobilis</em> is under a serious extinction risk due to a Mass Mortality Event (MME) that has occurred throughout the whole Mediterranean basin very recently. The main cause of this mortality is the protozoan <em>Haplosporidium pinnae</em>, which is spread by marine currents through the Mediterranean basin causing an epidemic (<a href="#cabanellas2019">M. Cabanellas-Reboredo 2019</a>; <a href="#catanese2018">G. Catanese 2018</a>).</p>
 
-&lt;p&gt;Contact and vector-borne based infectious diseases of terrestrial vertebrates and their epidemiology are typically studied using variations of the classical formulation of the Kermack and McKendrick SIR model. However, the state of the art of epidemiological studies in marine ecosystems lags behind that of their terrestrial counterparts. In fact, compartmental models are starting to be used only recently in the study of marine epizootics, in particular in bivalve epidemics (&lt;a href=&quot;#bidegain2016a&quot;&gt;G. Bidegain 2016a&lt;/a&gt;, &lt;a href=&quot;#bidegain2016b&quot;&gt;G. Bidegain 2016b&lt;/a&gt;, &lt;a href=&quot;#bidegain2017&quot;&gt;G. Bidegain 2017&lt;/a&gt;).&lt;/p&gt;
+<p>Contact and vector-borne based infectious diseases of terrestrial vertebrates and their epidemiology are typically studied using variations of the classical formulation of the Kermack and McKendrick SIR model. However, the state of the art of epidemiological studies in marine ecosystems lags behind that of their terrestrial counterparts. In fact, compartmental models are starting to be used only recently in the study of marine epizootics, in particular in bivalve epidemics (<a href="#bidegain2016a">G. Bidegain 2016a</a>, <a href="#bidegain2016b">G. Bidegain 2016b</a>, <a href="#bidegain2017">G. Bidegain 2017</a>).</p>
 
-&lt;p&gt;In the present work we analyse a model that is aimed to describe disease transmission from an infected immobile host to a susceptible one of the same species through waterborne parasites, that are explicitly described. The model is closely related to the SIP model introduced in (&lt;a href=&quot;#bidegain2016b&quot;&gt;G. Bidegain 2016b&lt;/a&gt;). In this first study we analyse in detail the properties of the mean-field version of the model, that aims to describe spatially homogeneous (i.e. well mixed) populations.&lt;/p&gt;
+<p>In the present work we analyse a model that is aimed to describe disease transmission from an infected immobile host to a susceptible one of the same species through waterborne parasites, that are explicitly described. The model is closely related to the SIP model introduced in (<a href="#bidegain2016b">G. Bidegain 2016b</a>). In this first study we analyse in detail the properties of the mean-field version of the model, that aims to describe spatially homogeneous (i.e. well mixed) populations.</p>
 
-&lt;p&gt;In the following sections I’ll try to explain the model and the main results of the study in a nontechnical and pedagogical way. For those further interested, just read the &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S030438002100260X&quot;&gt;paper&lt;/a&gt;!&lt;/p&gt;
+<p>In the following sections I’ll try to explain the model and the main results of the study in a nontechnical and pedagogical way. For those further interested, just read the <a href="https://www.sciencedirect.com/science/article/pii/S030438002100260X">paper</a>!</p>
 
-&lt;h2 id=&quot;the-model&quot;&gt;The model&lt;/h2&gt;
+<h2 id="the-model">The model</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/SIRP_scheme_mod.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/SIRP_scheme_mod.jpg" alt="" /></p>
 
-&lt;p&gt;The model is defined according to the diagram above. We consider the parasite population in the marine medium (\(P\)) and the hosts population, that can be in three diferent states: susceptible (\(S\)), infected by the parasite (\(I\)) and dead (\(R\)). Then, we consider the different epidemic processes that can occur in this pathosystem: susceptible hosts can get infected after filtering parasites, infected hosts can die, infected hosts can produce parasites and release them in the medium and parasites can die. Each of these processes will occur at different times, ones more than the other, etc. This will be controled through the &lt;em&gt;parameters&lt;/em&gt; of the model, which are nothing but the probability per unit time (rate) that each of this processes take place. As can be observed in the diagram, \(\beta\) is the rate at which susceptible hosts are infected upon filtering parasites, \(\gamma\) is the rate at which infected hosts die, \(\lambda\) is the rate at which infected hosts produce parasites and \(\mu\) is the rate at which parasites die. Altogether, and after some assumptions and considerations, one can write a mathematical model that describes the time-evolution of the number of hosts in each state and the number of parasites in the system,&lt;/p&gt;
+<p>The model is defined according to the diagram above. We consider the parasite population in the marine medium (\(P\)) and the hosts population, that can be in three diferent states: susceptible (\(S\)), infected by the parasite (\(I\)) and dead (\(R\)). Then, we consider the different epidemic processes that can occur in this pathosystem: susceptible hosts can get infected after filtering parasites, infected hosts can die, infected hosts can produce parasites and release them in the medium and parasites can die. Each of these processes will occur at different times, ones more than the other, etc. This will be controled through the <em>parameters</em> of the model, which are nothing but the probability per unit time (rate) that each of this processes take place. As can be observed in the diagram, \(\beta\) is the rate at which susceptible hosts are infected upon filtering parasites, \(\gamma\) is the rate at which infected hosts die, \(\lambda\) is the rate at which infected hosts produce parasites and \(\mu\) is the rate at which parasites die. Altogether, and after some assumptions and considerations, one can write a mathematical model that describes the time-evolution of the number of hosts in each state and the number of parasites in the system,</p>
 
 \[\begin{aligned}
-            \dot{S} &amp;amp;=-\bar{\beta} P S \\
-            \dot{I} &amp;amp;=\bar{\beta} P S-\gamma I \\
-            \dot{R} &amp;amp;=\gamma I \\
-            \dot{P} &amp;amp;=\lambda I-\bar{\beta} P S-\mu P \ .
+            \dot{S} &amp;=-\bar{\beta} P S \\
+            \dot{I} &amp;=\bar{\beta} P S-\gamma I \\
+            \dot{R} &amp;=\gamma I \\
+            \dot{P} &amp;=\lambda I-\bar{\beta} P S-\mu P \ .
         \end{aligned}\]
 
-&lt;p&gt;More formally, this kind of models are known as &lt;a href=&quot;https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology&quot;&gt;&lt;em&gt;compartmental models&lt;/em&gt;&lt;/a&gt; and the mathematical framework we are using to represent it is known as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Differential_equation&quot;&gt;&lt;em&gt;system of ordinary differential equations&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+<p>More formally, this kind of models are known as <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology"><em>compartmental models</em></a> and the mathematical framework we are using to represent it is known as a <a href="https://en.wikipedia.org/wiki/Differential_equation"><em>system of ordinary differential equations</em></a>.</p>
 
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+<h2 id="results">Results</h2>
 
-&lt;p&gt;The developed model can be used to simulate the considered processes for different values of the parameters and obtain the time-evolution of the number of hosts in each state and the number of parasites in the system. In the gif below we show the results of the model for four different parameters sets, from which we can make a number of observations. Comparing (A) with (B), we observe that increasing the transmission rate (\(\beta\)) the epidemic starts earlier and the final number of dead hosts increase, something that indeed could be expected from common sense. Similarly, comparing plots (A) and (C) we note that decreasing the parasite production rate of infected hosts (\(\lambda\)) has the opposite effects, causes a delay in the appearence of the epidemic and reduces the final number of dead hosts at the end of the epidemic. Again, this behaviour could be anticipated from common sense. Finaly, we observe that if we further reduce the \(\lambda\) parameter (the same would happen with \(\beta\)), no outbreak is produced.&lt;/p&gt;
+<p>The developed model can be used to simulate the considered processes for different values of the parameters and obtain the time-evolution of the number of hosts in each state and the number of parasites in the system. In the gif below we show the results of the model for four different parameters sets, from which we can make a number of observations. Comparing (A) with (B), we observe that increasing the transmission rate (\(\beta\)) the epidemic starts earlier and the final number of dead hosts increase, something that indeed could be expected from common sense. Similarly, comparing plots (A) and (C) we note that decreasing the parasite production rate of infected hosts (\(\lambda\)) has the opposite effects, causes a delay in the appearence of the epidemic and reduces the final number of dead hosts at the end of the epidemic. Again, this behaviour could be anticipated from common sense. Finaly, we observe that if we further reduce the \(\lambda\) parameter (the same would happen with \(\beta\)), no outbreak is produced.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/SIRP.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/SIRP.gif" alt="" /></p>
 
-&lt;p&gt;One could further study the pathosystem by changing the parameter values of the model and observing the simulation outcome, but this would be tedious and inefficient. Instead, we can use some mathematical theories from dynamical systems to obtain something much more interesting: the so-called &lt;em&gt;Basic Reproduction Number&lt;/em&gt;, \(R_0\). In short, this parameter measures the average number of secondary infections produced by an initial infected individual in a fully susceptible population. So, if \(R_0&amp;gt;1\), an infected host produces more than one new infection, giving rise to a branching process that causes the exponential rise of infected cases. On the other hand, if \(R_0&amp;lt;1\) an infected host infects causes less than one new infection and the epidemic dies out. For our model, the Basic Reproduction Number is given by the following formula:&lt;/p&gt;
+<p>One could further study the pathosystem by changing the parameter values of the model and observing the simulation outcome, but this would be tedious and inefficient. Instead, we can use some mathematical theories from dynamical systems to obtain something much more interesting: the so-called <em>Basic Reproduction Number</em>, \(R_0\). In short, this parameter measures the average number of secondary infections produced by an initial infected individual in a fully susceptible population. So, if \(R_0&gt;1\), an infected host produces more than one new infection, giving rise to a branching process that causes the exponential rise of infected cases. On the other hand, if \(R_0&lt;1\) an infected host infects causes less than one new infection and the epidemic dies out. For our model, the Basic Reproduction Number is given by the following formula:</p>
 
 \[R_0=\frac{\lambda}{\gamma\left(1+\displaystyle\frac{\mu}{\beta}\right)}\]
 
-&lt;p&gt;As you can see, the result is pretty simple! Now we can check the \(R_0\) values of the previous simulations, which turn out to be:&lt;/p&gt;
+<p>As you can see, the result is pretty simple! Now we can check the \(R_0\) values of the previous simulations, which turn out to be:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;(A) \(R_0\approx2.5\)&lt;/li&gt;
-  &lt;li&gt;(B) \(R_0\approx5\)&lt;/li&gt;
-  &lt;li&gt;(C) \(R_0\approx2\)&lt;/li&gt;
-  &lt;li&gt;(D) \(R_0\approx0.995\)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>(A) \(R_0\approx2.5\)</li>
+  <li>(B) \(R_0\approx5\)</li>
+  <li>(C) \(R_0\approx2\)</li>
+  <li>(D) \(R_0\approx0.995\)</li>
+</ul>
 
-&lt;p&gt;Note that in the only case that \(R_0&amp;lt;1\), this is case (D), an outbreak was not developed in the simulations. Thus, the theory perfectly predicts the appearence of an outbreak. So now we can fully understand the behaviour of the model without even simulating it! Indeed, it can be proven that the number of dead individuals at the end of the epidemic is a (more complicated) function of \(R_0\), so that only by knowing the parameter values of the model you can even predict the consequences of the epidemic&lt;/p&gt;
+<p>Note that in the only case that \(R_0&lt;1\), this is case (D), an outbreak was not developed in the simulations. Thus, the theory perfectly predicts the appearence of an outbreak. So now we can fully understand the behaviour of the model without even simulating it! Indeed, it can be proven that the number of dead individuals at the end of the epidemic is a (more complicated) function of \(R_0\), so that only by knowing the parameter values of the model you can even predict the consequences of the epidemic</p>
 
-&lt;p&gt;Up to this point I hope to have convinced you of the power of applying mathematics to study epidemics, at least this one. But, all this still seems very theoretical, so, it is really useful? Well, it all depends on the knowledge of the &lt;strong&gt;real&lt;/strong&gt; values of the parameters and the availability of field data. For the case of the Mass Mortality Event of &lt;em&gt;Pinna nobilis&lt;/em&gt;, as it is an emergent disease, only the value of the mortality rate of hosts could be inferred, being \(\gamma=1\) month\(^{-1}\). However, some data of the time evolution of the epidemic in the controlled water tanks was available after a frustrated conservation effort. The empirical data consists of the proportion of survivors as a function of time in the controlled water tanks with a temporal resolution of one month. The availability of such data allowed us to fit our model, this is, obtain the values of the model parameters that better represents the data.&lt;/p&gt;
+<p>Up to this point I hope to have convinced you of the power of applying mathematics to study epidemics, at least this one. But, all this still seems very theoretical, so, it is really useful? Well, it all depends on the knowledge of the <strong>real</strong> values of the parameters and the availability of field data. For the case of the Mass Mortality Event of <em>Pinna nobilis</em>, as it is an emergent disease, only the value of the mortality rate of hosts could be inferred, being \(\gamma=1\) month\(^{-1}\). However, some data of the time evolution of the epidemic in the controlled water tanks was available after a frustrated conservation effort. The empirical data consists of the proportion of survivors as a function of time in the controlled water tanks with a temporal resolution of one month. The availability of such data allowed us to fit our model, this is, obtain the values of the model parameters that better represents the data.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/SIRP_fit.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/SIRP_fit.png" alt="" /></p>
 
-&lt;p&gt;Indeed, the fitting procedure involved further mathematical analysis that is out of the scope of this outreach article. In short, we reduced our model to a simpler (less equations and less parameters) but equivalent one, that turn out to be a well-known epidemic model, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model&quot;&gt;SIR model&lt;/a&gt;. In any case, in the figure above we can observe how the model (in its reduced version) is able to chracterize the outbreaks on two different water tanks, that were kept at different temperatures.&lt;/p&gt;
+<p>Indeed, the fitting procedure involved further mathematical analysis that is out of the scope of this outreach article. In short, we reduced our model to a simpler (less equations and less parameters) but equivalent one, that turn out to be a well-known epidemic model, the <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model">SIR model</a>. In any case, in the figure above we can observe how the model (in its reduced version) is able to chracterize the outbreaks on two different water tanks, that were kept at different temperatures.</p>
 
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+<h2 id="conclusions">Conclusions</h2>
 
-&lt;p&gt;In this study, we developed a deterministic compartmental model to describe parasite produced marine diseases of immobile hosts and applied it to the particular case of the Mass Mortality Event of &lt;em&gt;Pinna nobilis&lt;/em&gt;. The results presented here represent only the surface of the study, if you are further interested go to read the &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S030438002100260X&quot;&gt;paper&lt;/a&gt;!&lt;/p&gt;
+<p>In this study, we developed a deterministic compartmental model to describe parasite produced marine diseases of immobile hosts and applied it to the particular case of the Mass Mortality Event of <em>Pinna nobilis</em>. The results presented here represent only the surface of the study, if you are further interested go to read the <a href="https://www.sciencedirect.com/science/article/pii/S030438002100260X">paper</a>!</p>
 
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+<h2 id="references">References</h2>
 
-&lt;p&gt;&lt;a name=&quot;cabanellas2019&quot;&gt;&lt;/a&gt; Cabanellas-Reboredo M., et al. Tracking a mass mortality outbreak of pen shell Pinna nobilis populations: A collaborative effort of scientists and citizens &lt;a href=&quot;https://www.nature.com/articles/s41598-019-49808-4&quot;&gt;Sci. Rep.&lt;/a&gt;, 9 &lt;strong&gt;(2019)&lt;/strong&gt;&lt;/p&gt;
+<p><a name="cabanellas2019"></a> Cabanellas-Reboredo M., et al. Tracking a mass mortality outbreak of pen shell Pinna nobilis populations: A collaborative effort of scientists and citizens <a href="https://www.nature.com/articles/s41598-019-49808-4">Sci. Rep.</a>, 9 <strong>(2019)</strong></p>
 
-&lt;p&gt;&lt;a name=&quot;catanese2018&quot;&gt;&lt;/a&gt; Catanese G., et al. Haplosporidium pinnae sp. nov. a haplosporidan parasite associated with mass mortalities of the fan mussel, &lt;em&gt;Pinna nobilis&lt;/em&gt;, in the Western Mediterranean Sea &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0022201118301034?via%3Dihub&quot;&gt;J. Invertebr. Pathol.&lt;/a&gt;, 157 &lt;strong&gt;(2018)&lt;/strong&gt;&lt;/p&gt;
+<p><a name="catanese2018"></a> Catanese G., et al. Haplosporidium pinnae sp. nov. a haplosporidan parasite associated with mass mortalities of the fan mussel, <em>Pinna nobilis</em>, in the Western Mediterranean Sea <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022201118301034?via%3Dihub">J. Invertebr. Pathol.</a>, 157 <strong>(2018)</strong></p>
 
-&lt;p&gt;&lt;a name=&quot;bidegain2016a&quot;&gt;&lt;/a&gt; Bidegain G., Powell E., Klinck J., Ben-Horin T., Hofmann E. Microparasitic disease dynamics in benthic suspension feeders: Infective dose, non-focal hosts, and particle diffusion &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S030438001630031X?via%3Dihub&quot;&gt;Ecol. Model.&lt;/a&gt;, 328 &lt;strong&gt;(2016)&lt;/strong&gt;&lt;/p&gt;
+<p><a name="bidegain2016a"></a> Bidegain G., Powell E., Klinck J., Ben-Horin T., Hofmann E. Microparasitic disease dynamics in benthic suspension feeders: Infective dose, non-focal hosts, and particle diffusion <a href="https://www.sciencedirect.com/science/article/abs/pii/S030438001630031X?via%3Dihub">Ecol. Model.</a>, 328 <strong>(2016)</strong></p>
 
-&lt;p&gt;&lt;a name=&quot;bidegain2016b&quot;&gt;&lt;/a&gt; Bidegain G., Powell E.N., Klinck J.M., Ben-Horin T., Hofmann E.E. Marine infectious disease dynamics and outbreak thresholds: contact transmission, pandemic infection, and the potential role of filter feeders &lt;a href=&quot;https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.1286&quot;&gt;Ecosphere&lt;/a&gt;, 7 &lt;strong&gt;(2016)&lt;/strong&gt;.&lt;/p&gt;
+<p><a name="bidegain2016b"></a> Bidegain G., Powell E.N., Klinck J.M., Ben-Horin T., Hofmann E.E. Marine infectious disease dynamics and outbreak thresholds: contact transmission, pandemic infection, and the potential role of filter feeders <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.1286">Ecosphere</a>, 7 <strong>(2016)</strong>.</p>
 
-&lt;p&gt;&lt;a name=&quot;bidegain2017&quot;&gt;&lt;/a&gt; Bidegain G., Powell E., Klinck J., Hofmann E., Ben-Horin T., Bushek D., Ford S., Munroe D., Guo X. Modeling the transmission of Perkinsus marinus in the eastern oyster Crassostrea virginica &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0165783616302582?via%3Dihub&quot;&gt;Fish. Res.&lt;/a&gt;, 186 &lt;strong&gt;(2017)&lt;/strong&gt;&lt;/p&gt;</content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html">In this work, we develop a mathematical model to describe parasite produced marine diseases of immobile hosts and apply it to the particular case of the Mass Mortality Event of Pinna nobilis.</summary></entry></feed>
+<p><a name="bidegain2017"></a> Bidegain G., Powell E., Klinck J., Hofmann E., Ben-Horin T., Bushek D., Ford S., Munroe D., Guo X. Modeling the transmission of Perkinsus marinus in the eastern oyster Crassostrea virginica <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165783616302582?via%3Dihub">Fish. Res.</a>, 186 <strong>(2017)</strong></p>]]></content><author><name>Àlex Giménez Romero</name><email>alex@ifisc.uib-csic.es</email></author><category term="Outreach" /><category term="Epidemics" /><summary type="html"><![CDATA[In this work, we develop a mathematical model to describe parasite produced marine diseases of immobile hosts and apply it to the particular case of the Mass Mortality Event of Pinna nobilis.]]></summary></entry></feed>
