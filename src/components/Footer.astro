@@ -1,0 +1,19 @@
+---
+import { site } from '@/data/site';
+---
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <p class="footer-name">{site.name}</p>
+      <p class="muted">Theoretical & computational ecology</p>
+    </div>
+    <div class="footer-links" aria-label="Profile links">
+      <a href={`mailto:${site.email}`} data-umami-event="contact-open" data-umami-event-channel="email">Email</a>
+      <a href={site.orcid} target="_blank" rel="noopener noreferrer" data-umami-event="profile-open" data-umami-event-profile="ORCID">ORCID</a>
+      <a href={site.scholar} target="_blank" rel="noopener noreferrer" data-umami-event="profile-open" data-umami-event-profile="Google Scholar">Google Scholar</a>
+      <a href={site.github} target="_blank" rel="noopener noreferrer" data-umami-event="profile-open" data-umami-event-profile="GitHub">GitHub</a>
+      <a href={site.bluesky} target="_blank" rel="noopener noreferrer" data-umami-event="profile-open" data-umami-event-profile="Bluesky">Bluesky</a>
+    </div>
+    <p class="footer-note">Built with Astro. Research content last structured from the 2026 CV.</p>
+  </div>
+</footer>

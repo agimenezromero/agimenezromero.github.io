@@ -1,0 +1,128 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import ThemeVisual from '@/components/ThemeVisual.astro';
+import PublicationItem from '@/components/PublicationItem.astro';
+import { Image } from 'astro:assets';
+import portrait from '@/assets/images/portrait.jpg';
+import pdRisk from '@/assets/images/pd-risk.png';
+import posidonia from '@/assets/images/posidonia.jpg';
+import philaenus from '@/assets/images/philaenus.jpg';
+import worldMap from '@/assets/images/world-map.png';
+import { site } from '@/data/site';
+import { researchThemes } from '@/data/research';
+import { tools } from '@/data/tools';
+import pubs from '@/data/publications.generated.json';
+import { conversation } from '@/data/outreach';
+
+const featuredPubs = pubs.filter((p:any) => p.featured).slice(0, 5);
+const featuredOutreach = conversation.slice(0, 2);
+const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
+---
+<BaseLayout>
+  <section class="hero shell">
+    <div class="hero-copy">
+      <p class="hero-kicker">Theoretical & computational ecologist</p>
+      <h1>Àlex<br />Giménez-Romero</h1>
+      <p class="hero-lede">{site.description}</p>
+      <p class="hero-affiliation">Juan de la Cierva Fellow · CEAB-CSIC<br />Research stay · ISEM, University of Montpellier</p>
+      <div class="hero-actions">
+        <a class="button button--primary" href="/research">Explore research <span>→</span></a>
+        <a class="text-link" href="/publications">Publications <span>→</span></a>
+        <a class="text-link" href="/about">About <span>→</span></a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <div class="portrait-frame">
+        <Image src={portrait} alt="Portrait of Àlex Giménez-Romero" widths={[520, 760, 1000]} sizes="(min-width: 900px) 34vw, 82vw" />
+      </div>
+      <div class="portrait-note"><span>Based at</span><strong>CEAB-CSIC</strong><span>Blanes · Spain</span></div>
+    </div>
+  </section>
+
+  <section class="section section--research shell">
+    <SectionHeading eyebrow="Research" title="Ecological dynamics across scales" intro="Four connected research programmes, from mathematical mechanisms to global ecological observation." />
+    <div class="research-index">
+      {researchThemes.map(theme => (
+        <a class:list={['research-index-item', `research-index-item--${theme.slug}`]} href={`/research#${theme.slug}`} data-umami-event="research-theme-open" data-umami-event-theme={theme.eyebrow}>
+          <span class="research-number">{theme.number}</span>
+          <span><strong>{theme.eyebrow}</strong><small>{theme.question}</small></span>
+          <span class="arrow">↗</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section section--feature shell">
+    <div class="feature-story">
+      <div class="feature-media"><Image src={pdRisk} alt="Global maps of Pierce's disease risk" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-copy">
+        <p class="eyebrow">Climate-driven disease</p>
+        <h2>From transmission mechanisms to emerging risk</h2>
+        <p>I combine mechanistic epidemiological models with climate and geospatial data to understand when vector-borne plant diseases can establish, spread and become a management concern.</p>
+        <a class="text-link" href="/research#disease" data-umami-event="research-theme-open" data-umami-event-theme="Climate & disease">Explore this research <span>→</span></a>
+      </div>
+    </div>
+    <div class="feature-story feature-story--reverse">
+      <div class="feature-media"><ThemeVisual type="network" /></div>
+      <div class="feature-copy">
+        <p class="eyebrow">Stability & resilience</p>
+        <h2>How ecological structure changes the response to perturbation</h2>
+        <p>Recent work links demographic and network structure to stability, response diversity and vulnerability under different perturbation regimes.</p>
+        <a class="text-link" href="/research#stability" data-umami-event="research-theme-open" data-umami-event-theme="Stability & resilience">Explore this research <span>→</span></a>
+      </div>
+    </div>
+    <div class="feature-story">
+      <div class="feature-media"><Image src={posidonia} alt="Posidonia oceanica meadow photographed underwater" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-copy">
+        <p class="eyebrow">Spatial ecology</p>
+        <h2>Patterns as ecological information</h2>
+        <p>From coral-reef geometry to seagrass fragmentation and dryland vegetation, I study whether spatial organization reveals general ecological processes and resilience.</p>
+        <a class="text-link" href="/research#spatial" data-umami-event="research-theme-open" data-umami-event-theme="Spatial ecology">Explore this research <span>→</span></a>
+      </div>
+    </div>
+    <div class="feature-story feature-story--reverse">
+      <div class="feature-media"><Image src={worldMap} alt="Global-scale ecological mapping from Earth-observation data" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-copy">
+        <p class="eyebrow">AI & remote sensing</p>
+        <h2>Extending ecological observation across scales</h2>
+        <p>I combine satellite imagery, geospatial data and deep learning to build transferable ecological maps and extract information that would be difficult to observe directly at large spatial scales.</p>
+        <a class="text-link" href="/research#remote-sensing" data-umami-event="research-theme-open" data-umami-event-theme="AI & remote sensing">Explore this research <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--publications shell">
+    <SectionHeading eyebrow="Selected publications" title="Recent work" intro="A curated selection from the complete publication record." />
+    <div class="publication-list publication-list--home">
+      {featuredPubs.map((pub:any) => <PublicationItem pub={pub} compact={true} />)}
+    </div>
+    <a class="button button--secondary" href="/publications">All publications <span>→</span></a>
+  </section>
+
+  <section class="section section--tools shell">
+    <SectionHeading eyebrow="Tools & data" title="Research made explorable" intro="Interactive resources that connect models and data to questions outside the analysis pipeline." />
+    <div class="tool-grid">
+      {tools.map(tool => (
+        <a class="tool-card" href={tool.href} target="_blank" rel="noopener noreferrer" data-umami-event="tool-open" data-umami-event-tool={tool.title}>
+          <div class="tool-visual"><Image src={toolImages[tool.image]} alt="" widths={[420,700,900]} sizes="(min-width: 900px) 30vw, 92vw" /></div>
+          <div class="tool-card-body"><p class="eyebrow">{tool.kicker}</p><h3>{tool.title}</h3><p>{tool.description}</p><span class="text-link">Open tool ↗</span></div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section section--outreach shell">
+    <SectionHeading eyebrow="Science beyond papers" title="Outreach & public communication" intro="Articles and media that translate ecological modelling, climate change and biodiversity research for broader audiences." />
+    <div class="outreach-grid">
+      {featuredOutreach.map(item => (
+        <article class="outreach-feature">
+          <p class="eyebrow">{item.year} · {item.outlet}</p>
+          <h3>{item.href ? <a href={item.href} target="_blank" rel="noopener noreferrer" data-umami-event="outreach-open" data-umami-event-title={item.title}>{item.title}</a> : item.title}</h3>
+          <p>{item.topic}</p>
+        </article>
+      ))}
+    </div>
+    <a class="text-link" href="/outreach">All outreach <span>→</span></a>
+  </section>
+</BaseLayout>

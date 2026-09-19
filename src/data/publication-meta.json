@@ -1,0 +1,215 @@
+{
+  "GimenezRomero2026_networks": {
+    "tags": [
+      "stability",
+      "networks"
+    ],
+    "featured": true,
+    "summary": "Across ecological interaction networks, connectivity grows sub-quadratically with richness, balancing information propagation with flexibility to link perturbations."
+  },
+  "GimenezRomero2026_demographic": {
+    "tags": [
+      "stability",
+      "demography"
+    ],
+    "featured": true,
+    "summary": "A demographic framework for comparing vulnerability under contrasting perturbation regimes."
+  },
+  "GimenezRomero2025": {
+    "tags": [
+      "stability",
+      "communities"
+    ],
+    "featured": true,
+    "summary": "Shows how population structure can fundamentally alter community stability."
+  },
+  "Oro2026": {
+    "tags": [
+      "stability",
+      "rare-events"
+    ],
+    "featured": false
+  },
+  "qi2026density": {
+    "tags": [
+      "stability",
+      "demography"
+    ],
+    "featured": false
+  },
+  "RodriguezCabanillas2026": {
+    "tags": [
+      "disease",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Links within-host pathogen progression to vector-mediated transmission under climate forcing."
+  },
+  "Giménez-Romero2025_high_resolution": {
+    "tags": [
+      "disease",
+      "climate",
+      "geospatial"
+    ],
+    "featured": true,
+    "summary": "High-resolution climate data uncovers disease-risk hotspots missed by coarser products.",
+    "pdf": "/papers/Sci_Rep_2025.pdf",
+    "press": "https://www.lavanguardia.com/comer/beber/20251025/11182355/vida-muerte-vid-separan-pocos-grados-diferencia-cambio-climatico-desprotege-vinedos-produccion-vino-patogeno.html"
+  },
+  "GimenezRomero2023_PD": {
+    "tags": [
+      "disease",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Projects how warming reshapes Pierce’s disease epidemic risk across European vineyards.",
+    "pdf": "/papers/Sci_Rep_2024.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/el-cambio-climatico-potencia-la-bacteria-que-devora-olivos-en-el-mediterraneo"
+  },
+  "Moralejo2024": {
+    "tags": [
+      "disease",
+      "biogeography"
+    ],
+    "featured": false,
+    "pdf": "/papers/Proc_Roy_Soc_B_2024.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/un-estudio-sugiere-que-el-cambio-climatico-abre-la-puerta-una-enfermedad-de-la-vid-que-europa-esquivo-hace-150-anos"
+  },
+  "GimenezRomero2023": {
+    "tags": [
+      "disease",
+      "mechanistic"
+    ],
+    "featured": false,
+    "pdf": "/papers/Phyto_2023.pdf"
+  },
+  "Lago2023": {
+    "tags": [
+      "disease",
+      "phenology"
+    ],
+    "featured": false,
+    "pdf": "/papers/EnvEnt_2023.pdf",
+    "press": "https://cadenaser.com/baleares/2023/09/18/una-nueva-herramienta-permite-predecir-la-eclosion-de-las-ninfas-del-insecto-que-transmite-la-xylella-radio-ibiza/"
+  },
+  "GimenezRomero2022_PRE": {
+    "tags": [
+      "disease",
+      "theory"
+    ],
+    "featured": false,
+    "pdf": "/papers/PRE_2022.pdf"
+  },
+  "GimenezRomero2022_CommsBio": {
+    "tags": [
+      "disease",
+      "climate",
+      "geospatial"
+    ],
+    "featured": true,
+    "pdf": "/papers/CommunicationsBiology_2022.pdf"
+  },
+  "GimenezRomero2021": {
+    "tags": [
+      "disease",
+      "marine",
+      "mechanistic"
+    ],
+    "featured": false,
+    "pdf": "/papers/Ecol_mod_2021.pdf"
+  },
+  "GimenezRomero_2022_RSos": {
+    "tags": [
+      "disease",
+      "marine",
+      "spatial"
+    ],
+    "featured": false,
+    "pdf": "/papers/rsos_2022.pdf"
+  },
+  "GimenezRomero2026_inferring": {
+    "tags": [
+      "spatial",
+      "seagrass",
+      "resilience"
+    ],
+    "featured": true,
+    "summary": "Tests whether self-organized seagrass patterns contain information about ecosystem resilience."
+  },
+  "GimenezRomero2026_intermittent": {
+    "tags": [
+      "spatial",
+      "drylands",
+      "stochastic"
+    ],
+    "featured": true
+  },
+  "Llabrés2026": {
+    "tags": [
+      "spatial",
+      "coral-reefs"
+    ],
+    "featured": false,
+    "article": "https://doi.org/10.48550/arXiv.2603.16933"
+  },
+  "GimenezRomero2026_thermal": {
+    "tags": [
+      "spatial",
+      "seagrass",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Links accumulated thermal stress to loss and fragmentation of Mediterranean Posidonia meadows.",
+    "pdf": "/papers/GCBC_2026.pdf",
+    "press": "https://www.elperiodico.com/es/medio-ambiente/20260704/calentamiento-acumulado-mediterraneo-reduce-40-132113659"
+  },
+  "Gimenez-Romero2024_corals": {
+    "tags": [
+      "spatial",
+      "coral-reefs",
+      "macroecology"
+    ],
+    "featured": true,
+    "summary": "Reveals recurrent size, shape and spacing patterns across more than a million coral reefs worldwide.",
+    "pdf": "/papers/GEB_2024.pdf",
+    "press": "https://www.lavanguardia.com/vida/20241218/10214195/estudio-revela-patrones-espaciales-universales-corales-mundo-agenciaslv20241218.html"
+  },
+  "Gimenez-Romero2025_posi": {
+    "tags": [
+      "remote-sensing",
+      "seagrass",
+      "ai"
+    ],
+    "featured": true,
+    "summary": "A transferable deep-learning framework for mapping seagrass habitats at large spatial scales.",
+    "pdf": "/papers/Ecological_indicators_2025.pdf"
+  },
+  "Flecha2022": {
+    "tags": [
+      "remote-sensing",
+      "machine-learning",
+      "marine"
+    ],
+    "featured": false,
+    "pdf": "/papers/Sci_Rep_2022.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/un-equipo-del-csic-identifica-la-tendencia-de-acidificacion-del-mar-balear"
+  },
+  "Moralejo2025": {
+    "tags": [
+      "disease",
+      "plant-health"
+    ],
+    "featured": false,
+    "pdf": "/papers/EJFR_2025.pdf"
+  },
+  "Mayol2025": {
+    "tags": [
+      "spatial",
+      "seagrass"
+    ],
+    "featured": false
+  },
+  "Bebber2024": {
+    "pdf": "/papers/PHC2022.pdf"
+  }
+}

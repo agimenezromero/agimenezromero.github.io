@@ -1,0 +1,59 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PublicationItem from '@/components/PublicationItem.astro';
+import pubs from '@/data/publications.generated.json';
+const years = [...new Set(pubs.map((p:any) => p.year))].sort((a:any,b:any)=>b-a);
+const totalPublications = pubs.length;
+const publicationNumber = new Map(pubs.map((p:any, i:number) => [p.key, totalPublications - i]));
+---
+<BaseLayout title="Publications" description="Peer-reviewed publications, preprints and reports by Àlex Giménez-Romero." bodyClass="publications-page">
+  <header class="page-intro shell page-intro--compact">
+    <p class="eyebrow">Publications</p>
+    <h1>Research record</h1>
+    <p class="page-lede">Peer-reviewed articles, preprints and technical reports. The bibliography is generated from the same BibTeX source used for the CV.</p>
+  </header>
+
+  <section class="shell publications-section">
+    <div class="filter-bar" aria-label="Publication filters">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="journal">Journal articles</button>
+      <button class="filter" data-filter="preprint">Preprints</button>
+      <button class="filter" data-filter="stability">Stability</button>
+      <button class="filter" data-filter="disease">Disease</button>
+      <button class="filter" data-filter="spatial">Spatial ecology</button>
+      <button class="filter" data-filter="remote-sensing">AI & remote sensing</button>
+    </div>
+    <div id="publication-groups">
+      {years.map(year => (
+        <section class="year-group" data-year={year}>
+          <h2>{year}</h2>
+          <div class="publication-list">
+            {pubs.filter((p:any) => p.year === year).map((p:any) => <PublicationItem pub={p} number={publicationNumber.get(p.key)} total={totalPublications} />)}
+          </div>
+        </section>
+      ))}
+    </div>
+    <p class="empty-state" hidden>No publications match this filter.</p>
+  </section>
+
+  <script is:inline>
+    const buttons = document.querySelectorAll('.filter');
+    const items = document.querySelectorAll('.publication-item');
+    const groups = document.querySelectorAll('.year-group');
+    const empty = document.querySelector('.empty-state');
+    buttons.forEach((button) => button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      buttons.forEach(b => b.classList.toggle('is-active', b === button));
+      let shown = 0;
+      items.forEach(item => {
+        const hit = filter === 'all' || item.dataset.type === filter || (item.dataset.tags || '').split(' ').includes(filter);
+        item.hidden = !hit;
+        if (hit) shown++;
+      });
+      groups.forEach(group => {
+        group.hidden = ![...group.querySelectorAll('.publication-item')].some(item => !item.hidden);
+      });
+      empty.hidden = shown !== 0;
+    }));
+  </script>
+</BaseLayout>

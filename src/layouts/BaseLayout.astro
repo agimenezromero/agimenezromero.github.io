@@ -1,0 +1,67 @@
+---
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import '@/styles/global.css';
+import { site } from '@/data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  bodyClass?: string;
+}
+const { title, description = site.description, image = '/favicon.svg', bodyClass } = Astro.props;
+const fullTitle = title ? `${title} — ${site.name}` : `${site.name} — ${site.role}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const umamiScriptUrl = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL || 'https://cloud.umami.is/script.js';
+const umamiDomains = import.meta.env.PUBLIC_UMAMI_DOMAINS;
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: site.name,
+  jobTitle: 'Researcher in theoretical and computational ecology',
+  email: `mailto:${site.email}`,
+  url: Astro.site?.toString(),
+  sameAs: [site.orcid, site.github, site.scholar, site.bluesky],
+  affiliation: [
+    { '@type': 'Organization', name: 'Center for Advanced Studies of Blanes (CEAB-CSIC)' },
+    { '@type': 'Organization', name: 'ISEM, University of Montpellier' },
+  ],
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#e8e5dc" />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+    {umamiWebsiteId && (
+      <script
+        is:inline
+        defer
+        src={umamiScriptUrl}
+        data-website-id={umamiWebsiteId}
+        data-domains={umamiDomains || undefined}
+        data-exclude-search="true"
+      ></script>
+    )}
+    <title>{fullTitle}</title>
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header />
+    <main id="main"><slot /></main>
+    <Footer />
+  </body>
+</html>

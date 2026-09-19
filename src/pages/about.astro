@@ -1,0 +1,39 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import portrait from '@/assets/images/portrait.jpg';
+import { positions, education, teaching, supervision } from '@/data/about';
+import { site } from '@/data/site';
+---
+<BaseLayout title="About" description="Biography, academic trajectory, teaching and supervision.">
+  <header class="about-hero shell">
+    <div><p class="eyebrow">About</p><h1>Physics, complex systems<br />and ecology.</h1></div>
+    <div class="about-intro">
+      <p>I am a researcher in theoretical and computational ecology at CEAB-CSIC, currently carrying out a research stay at ISEM, University of Montpellier. My background is in physics and complex systems, and my work sits between theory-driven and data-intensive ecology.</p>
+      <p>I combine mathematical modelling, stochastic and spatial approaches, remote sensing, deep learning and climate data to study ecological stability, disease dynamics and the spatial organization of ecosystems.</p>
+      <div class="profile-links"><a href={`mailto:${site.email}`}>{site.email}</a><a href={site.orcid}>ORCID ↗</a><a href={site.scholar}>Google Scholar ↗</a><a href={site.github}>GitHub ↗</a></div>
+    </div>
+  </header>
+
+  <section class="shell about-profile">
+    <div class="about-photo"><Image src={portrait} alt="Àlex Giménez-Romero outdoors" widths={[500,800,1100]} sizes="(min-width:900px) 38vw, 92vw" /></div>
+    <blockquote>“The systems differ, but the recurring question is how structure and environmental forcing shape ecological response.”</blockquote>
+  </section>
+
+  <section class="shell cv-section">
+    <div class="section-grid-heading"><div><p class="eyebrow">Trajectory</p><h2>Positions</h2></div><a class="text-link" href="/cv/Alex_Gimenez_Romero_CV.pdf">Full CV ↗</a></div>
+    <div class="timeline">{positions.map(item => <div class="timeline-row"><span>{item.years}</span><div><h3>{item.role}</h3><p>{item.place}</p><small>{item.detail}</small></div></div>)}</div>
+  </section>
+
+  <section class="about-alt"><div class="shell cv-section">
+    <div class="section-grid-heading"><div><p class="eyebrow">Training</p><h2>Education</h2></div></div>
+    <div class="timeline">{education.map(item => <div class="timeline-row"><span>{item.years}</span><div><h3>{item.degree}</h3><p>{item.place}</p><small>{item.detail}</small></div></div>)}</div>
+  </div></section>
+
+  <section class="shell split-section">
+    <div><p class="eyebrow">Teaching</p><h2>Courses</h2><div class="mini-list">{teaching.map(item => <div><span>{item.years}</span><h3>{item.title}</h3><p>{item.place}</p></div>)}</div></div>
+    <div><p class="eyebrow">Supervision</p><h2>Students</h2><div class="mini-list">{supervision.map(item => <div><span>{item.years}</span><h3>{item.title}</h3><p>{item.detail}</p></div>)}</div></div>
+  </section>
+
+  <section class="contact-band"><div class="shell"><p class="eyebrow">Contact</p><h2>Research, collaboration or speaking enquiries.</h2><a class="button button--primary" href={`mailto:${site.email}`}>{site.email} ↗</a></div></section>
+</BaseLayout>

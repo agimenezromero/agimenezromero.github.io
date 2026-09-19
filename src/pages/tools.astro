@@ -1,0 +1,31 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import { tools } from '@/data/tools';
+import pdRisk from '@/assets/images/pd-risk.png';
+import philaenus from '@/assets/images/philaenus.jpg';
+import worldMap from '@/assets/images/world-map.png';
+const images:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
+---
+<BaseLayout title="Tools & data" description="Interactive ecological tools, dashboards, code and data resources.">
+  <header class="page-intro shell">
+    <p class="eyebrow">Tools & data</p>
+    <h1>Research made<br />usable and explorable</h1>
+    <p class="page-lede">Interactive tools are part of the research output: they expose model results, make predictions inspectable and provide direct routes from analysis to application.</p>
+  </header>
+  <section class="shell tool-feature-stack">
+    {tools.map((tool, i) => (
+      <article class:list={['tool-feature-row', `tool-feature-row--${tool.slug}`, i%2===1 && 'tool-feature-row--reverse']}>
+        <div class="tool-index" aria-hidden="true">{tool.number}</div>
+        <div class="tool-image"><Image src={images[tool.image]} alt="" widths={[700,1000,1400]} sizes="(min-width:900px) 48vw, 94vw" /></div>
+        <div class="tool-detail">
+          <p class="eyebrow">{tool.kicker}</p>
+          <h2>{tool.title}</h2>
+          <p>{tool.description}</p>
+          <a class="button button--primary" href={tool.href} target="_blank" rel="noopener noreferrer" data-umami-event="tool-open" data-umami-event-tool={tool.title}>Open resource ↗</a>
+        </div>
+      </article>
+    ))}
+  </section>
+  <section class="github-band"><div class="shell"><div><p class="eyebrow">Open research</p><h2>Code, repositories and reproducible workflows</h2></div><a class="button button--secondary" href="https://github.com/agimenezromero" target="_blank" rel="noopener noreferrer" data-umami-event="profile-open" data-umami-event-profile="GitHub">GitHub profile ↗</a></div></section>
+</BaseLayout>

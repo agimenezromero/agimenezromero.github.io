@@ -1,0 +1,51 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ThemeVisual from '@/components/ThemeVisual.astro';
+import PublicationItem from '@/components/PublicationItem.astro';
+import { researchThemes } from '@/data/research';
+import pubs from '@/data/publications.generated.json';
+const byKey = new Map(pubs.map((p:any) => [p.key, p]));
+---
+<BaseLayout title="Research" description="Research themes: ecological stability, climate-driven disease, spatial ecology, and AI and remote sensing.">
+  <header class="page-intro shell">
+    <p class="eyebrow">Research</p>
+    <h1>Ecological dynamics<br />across scales</h1>
+    <p class="page-lede">My work connects mechanistic theory and large-scale ecological data. The systems differ—communities, epidemics, coral reefs, seagrass meadows, drylands—but the recurring question is how structure and environmental forcing shape ecological response.</p>
+  </header>
+
+  <div class="shell theme-stack">
+    {researchThemes.map((theme, i) => {
+      const selected = theme.publicationKeys.map(k => byKey.get(k)).filter(Boolean).slice(0,4);
+      return (
+        <section class:list={['theme-section', `theme-section--${theme.slug}`, i % 2 === 1 && 'theme-section--reverse']} id={theme.slug}>
+          <div class="theme-content">
+            <p class="theme-number">{theme.number}</p>
+            <p class="eyebrow">{theme.eyebrow}</p>
+            <h2>{theme.title}</h2>
+            <p class="theme-question">{theme.question}</p>
+            <p>{theme.description}</p>
+            <div class="method-chips">{theme.methods.map(m => <span>{m}</span>)}</div>
+          </div>
+          <ThemeVisual type={theme.visual} />
+          <div class="theme-publications">
+            <p class="eyebrow">Selected work</p>
+            {selected.map((p:any) => <PublicationItem pub={p} compact={true} />)}
+          </div>
+        </section>
+      );
+    })}
+  </div>
+
+  <section class="methods-band">
+    <div class="shell">
+      <p class="eyebrow">Across themes</p>
+      <h2>Methods are a bridge, not the destination.</h2>
+      <div class="methods-grid">
+        <div><strong>Mechanistic modelling</strong><span>Dynamical systems · epidemiology · population models</span></div>
+        <div><strong>Stochastic & spatial ecology</strong><span>Spatial processes · individual-based models · pattern formation</span></div>
+        <div><strong>Networks & complex systems</strong><span>Ecological networks · stability · perturbation analysis</span></div>
+        <div><strong>Data-driven ecology</strong><span>Remote sensing · deep learning · geospatial and climate data</span></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,654 @@
+[
+  {
+    "key": "GimenezRomero2026_demographic",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "A demographic framework for assessing population vulnerability to contrasting perturbation regimes",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Daniel Oro",
+      "Daniel F. Doak",
+      "Maria Begoña García",
+      "Meritxell Genovart"
+    ],
+    "venue": "bioRxiv",
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.05.22.727074",
+    "url": "https://www.biorxiv.org/content/early/2026/05/26/2026.05.22.727074",
+    "article": "https://doi.org/10.64898/2026.05.22.727074",
+    "tags": [
+      "stability",
+      "demography"
+    ],
+    "featured": true,
+    "summary": "A demographic framework for comparing vulnerability under contrasting perturbation regimes."
+  },
+  {
+    "key": "RodriguezCabanillas2026",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "A mechanistic framework linking within-host pathogen progression to vector-mediated transmission under climate forcing",
+    "authors": [
+      "Juan Carlos Rodríguez-Cabanillas",
+      "Manuel A. Matías",
+      "Àlex Giménez-Romero"
+    ],
+    "venue": "bioRxiv",
+    "volume": "",
+    "pages": "2026.07.01.735761",
+    "doi": "10.64898/2026.07.01.735761",
+    "url": "https://www.biorxiv.org/content/early/2026/07/02/2026.07.01.735761",
+    "article": "https://doi.org/10.64898/2026.07.01.735761",
+    "tags": [
+      "disease",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Links within-host pathogen progression to vector-mediated transmission under climate forcing."
+  },
+  {
+    "key": "qi2026density",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Density dependence buffers natural populations against multiple stressors",
+    "authors": [
+      "Man Qi",
+      "Rob Salguero-Gomez",
+      "Àlex Giménez-Romero",
+      "Jiamiao Chen",
+      "Qianzhao Sun",
+      "Tao Sun"
+    ],
+    "venue": "EcoEvoRxiv",
+    "volume": "",
+    "pages": "",
+    "doi": null,
+    "url": null,
+    "article": null,
+    "tags": [
+      "stability",
+      "demography"
+    ],
+    "featured": false
+  },
+  {
+    "key": "GimenezRomero2026_networks",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Ecological networks balance connectivity with flexibility to perturbations",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Daniel Oro",
+      "Jordi Bascompte",
+      "Meritxell Genovart"
+    ],
+    "venue": "bioRxiv",
+    "volume": "",
+    "pages": "2026.06.12.731932",
+    "doi": "10.64898/2026.06.12.731932",
+    "url": "https://www.biorxiv.org/content/early/2026/06/16/2026.06.12.731932",
+    "article": "https://doi.org/10.64898/2026.06.12.731932",
+    "tags": [
+      "stability",
+      "networks"
+    ],
+    "featured": true,
+    "summary": "Across ecological interaction networks, connectivity grows sub-quadratically with richness, balancing information propagation with flexibility to link perturbations."
+  },
+  {
+    "key": "Mayol2025",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Effects of moderate meadow fragmentation and hydrodynamics on the water column oxygenation by the seagrass Posidonia oceanica",
+    "authors": [
+      "Elvira Mayol",
+      "Peru Agueda Aramburu",
+      "Carlos Alejandro Morell Lujan-Williams",
+      "Àlex Giménez-Romero",
+      "Marlene Wesselmann",
+      "Eduardo Infantes",
+      "Núria Marbà",
+      "Iris E. Hendriks"
+    ],
+    "venue": "Under review",
+    "volume": "",
+    "pages": "",
+    "doi": null,
+    "url": null,
+    "article": null,
+    "tags": [
+      "spatial",
+      "seagrass"
+    ],
+    "featured": false
+  },
+  {
+    "key": "Llabrés2026",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Hydrodynamics shapes annularity in coral reefs via scale-free growth processes",
+    "authors": [
+      "Eva Llabrés",
+      "Àlex Giménez-Romero",
+      "Tomàs Sintes",
+      "Carlos M. Duarte"
+    ],
+    "venue": "arxiv",
+    "volume": "",
+    "pages": "",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2603.16933",
+    "article": "https://doi.org/10.48550/arXiv.2603.16933",
+    "tags": [
+      "spatial",
+      "coral-reefs"
+    ],
+    "featured": false
+  },
+  {
+    "key": "GimenezRomero2026_inferring",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Inferring seagrass meadow resilience from self-organized spatial patterns",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Elena del Campo",
+      "Manuel A. Matías"
+    ],
+    "venue": "biorxiv",
+    "volume": "",
+    "pages": "",
+    "doi": "10.64898/2026.03.24.713893",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.03.24.713893v1",
+    "article": "https://doi.org/10.64898/2026.03.24.713893",
+    "tags": [
+      "spatial",
+      "seagrass",
+      "resilience"
+    ],
+    "featured": true,
+    "summary": "Tests whether self-organized seagrass patterns contain information about ecosystem resilience."
+  },
+  {
+    "key": "GimenezRomero2026_intermittent",
+    "entryType": "article",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Intermittent precipitation and spatial Allee effects drive irregular vegetation patterns in semiarid ecosystems",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Bernard A. Afful",
+      "Priscilla E. Greenwood",
+      "Manuel A. Matías",
+      "Luis F. Gordillo"
+    ],
+    "venue": "biorxiv",
+    "volume": "",
+    "pages": "2026.02.05.703943",
+    "doi": "10.64898/2026.02.05.703943",
+    "url": "https://www.biorxiv.org/content/early/2026/02/06/2026.02.05.703943",
+    "article": "https://doi.org/10.64898/2026.02.05.703943",
+    "tags": [
+      "spatial",
+      "drylands",
+      "stochastic"
+    ],
+    "featured": true
+  },
+  {
+    "key": "Oro2026",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2026,
+    "title": "Rare events and their role in ecological dynamics",
+    "authors": [
+      "Daniel Oro",
+      "Daniel F. Doak",
+      "Àlex Giménez-Romero",
+      "Meritxell Genovart"
+    ],
+    "venue": "Trends in Ecology & Evolution",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1016/j.tree.2026.07.012",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0169534726002107",
+    "article": "https://doi.org/10.1016/j.tree.2026.07.012",
+    "tags": [
+      "stability",
+      "rare-events"
+    ],
+    "featured": false
+  },
+  {
+    "key": "GimenezRomero2026_thermal",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2026,
+    "title": "Thermal Stress Is Associated With Fragmentation of Mediterranean Posidonia oceanica Meadows",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Tomàs Sintes",
+      "Carlos M. Duarte",
+      "Manuel A. Matías"
+    ],
+    "venue": "Global Change Biology Communications",
+    "volume": "1",
+    "pages": "e70031",
+    "doi": "10.1002/gcb4.70031",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/gcb4.70031",
+    "article": "https://doi.org/10.1002/gcb4.70031",
+    "tags": [
+      "spatial",
+      "seagrass",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Links accumulated thermal stress to loss and fragmentation of Mediterranean Posidonia meadows.",
+    "pdf": "/papers/GCBC_2026.pdf",
+    "press": "https://www.elperiodico.com/es/medio-ambiente/20260704/calentamiento-acumulado-mediterraneo-reduce-40-132113659"
+  },
+  {
+    "key": "Gimenez-Romero2025_posi",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2025,
+    "title": "A generalizable deep learning framework for large-scale mapping of seagrass habitats",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Dhafer Ferchichi",
+      "Pablo Moreno-Spiegelberg",
+      "Tomàs Sintes",
+      "Manuel A. Matías"
+    ],
+    "venue": "Ecological Indicators",
+    "volume": "180",
+    "pages": "114349",
+    "doi": "10.1016/j.ecolind.2025.114349",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25012816",
+    "article": "https://doi.org/10.1016/j.ecolind.2025.114349",
+    "tags": [
+      "remote-sensing",
+      "seagrass",
+      "ai"
+    ],
+    "featured": true,
+    "summary": "A transferable deep-learning framework for mapping seagrass habitats at large spatial scales.",
+    "pdf": "/papers/Ecological_indicators_2025.pdf"
+  },
+  {
+    "key": "Giménez-Romero2025_high_resolution",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2025,
+    "title": "High-resolution climate data reveals increased risk of Pierce's disease for grapevines worldwide",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Eduardo Moralejo",
+      "Manuel A. Matías"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "15",
+    "pages": "31282",
+    "doi": "10.1038/s41598-025-13994-1",
+    "url": "https://doi.org/10.1038/s41598-025-13994-1",
+    "article": "https://doi.org/10.1038/s41598-025-13994-1",
+    "tags": [
+      "disease",
+      "climate",
+      "geospatial"
+    ],
+    "featured": true,
+    "summary": "High-resolution climate data uncovers disease-risk hotspots missed by coarser products.",
+    "pdf": "/papers/Sci_Rep_2025.pdf",
+    "press": "https://www.lavanguardia.com/comer/beber/20251025/11182355/vida-muerte-vid-separan-pocos-grados-diferencia-cambio-climatico-desprotege-vinedos-produccion-vino-patogeno.html"
+  },
+  {
+    "key": "Moralejo2025",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2025,
+    "title": "Leaf susceptibility of Macaronesian laurel forest species to Phytophthora ramorum",
+    "authors": [
+      "Eduardo Moralejo",
+      "José A. García-Muñoz",
+      "Sandra Denman",
+      "Àlex Giménez-Romero"
+    ],
+    "venue": "European Journal of Forest Research",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1007/s10342-025-01764-7",
+    "url": "https://doi.org/10.1007/s10342-025-01764-7",
+    "article": "https://doi.org/10.1007/s10342-025-01764-7",
+    "tags": [
+      "disease",
+      "plant-health"
+    ],
+    "featured": false,
+    "pdf": "/papers/EJFR_2025.pdf"
+  },
+  {
+    "key": "GimenezRomero2025",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2025,
+    "title": "Population Structure Plays a Key Role in Community Stability",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Christina Hernández",
+      "Meritxell Genovart",
+      "Roberto Salguero Gómez"
+    ],
+    "venue": "Ecology Letters",
+    "volume": "28",
+    "pages": "e70272",
+    "doi": "10.1111/ele.70272",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.70272",
+    "article": "https://doi.org/10.1111/ele.70272",
+    "tags": [
+      "stability",
+      "communities"
+    ],
+    "featured": true,
+    "summary": "Shows how population structure can fundamentally alter community stability."
+  },
+  {
+    "key": "GimenezRomero2023_PD",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2024,
+    "title": "Global warming significantly increases the risk of Pierce's disease epidemics in European vineyards",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Maialen Iturbide",
+      "Eduardo Moralejo",
+      "José M. Gutiérrez",
+      "Manuel A. Matías"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "14",
+    "pages": "9648",
+    "doi": "10.1038/s41598-024-59947-y",
+    "url": "https://doi.org/10.1038/s41598-024-59947-y",
+    "article": "https://doi.org/10.1038/s41598-024-59947-y",
+    "tags": [
+      "disease",
+      "climate"
+    ],
+    "featured": true,
+    "summary": "Projects how warming reshapes Pierce’s disease epidemic risk across European vineyards.",
+    "pdf": "/papers/Sci_Rep_2024.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/el-cambio-climatico-potencia-la-bacteria-que-devora-olivos-en-el-mediterraneo"
+  },
+  {
+    "key": "Bebber2024",
+    "entryType": "techreport",
+    "type": "report",
+    "year": 2024,
+    "title": "Interdisciplinary Analysis of Plant Health Threats to Scotland: Project Final Report",
+    "authors": [
+      "D. P. Bebber",
+      "S. J. Gurr",
+      "A. Karley",
+      "L. Lozada-Ellison",
+      "T. Beale",
+      "À. Giménez-Romero"
+    ],
+    "venue": "Scotland's Centre of Expertise for Plant Health (PHC)",
+    "volume": "",
+    "pages": "",
+    "doi": "10.5281/zenodo.11613888",
+    "url": "https://doi.org/10.5281/zenodo.11613888",
+    "article": "https://doi.org/10.5281/zenodo.11613888",
+    "pdf": "/papers/PHC2022.pdf"
+  },
+  {
+    "key": "Moralejo2024",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2024,
+    "title": "Linking intercontinental biogeographic events to decipher how European vineyards escaped Pierce’s disease",
+    "authors": [
+      "Eduardo Moralejo",
+      "Àlex Giménez-Romero",
+      "Manuel A. Matías"
+    ],
+    "venue": "Proceedings of the Royal Society B: Biological Sciences",
+    "volume": "291",
+    "pages": "20241130",
+    "doi": "10.1098/rspb.2024.1130",
+    "url": "https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2024.1130",
+    "article": "https://doi.org/10.1098/rspb.2024.1130",
+    "tags": [
+      "disease",
+      "biogeography"
+    ],
+    "featured": false,
+    "pdf": "/papers/Proc_Roy_Soc_B_2024.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/un-estudio-sugiere-que-el-cambio-climatico-abre-la-puerta-una-enfermedad-de-la-vid-que-europa-esquivo-hace-150-anos"
+  },
+  {
+    "key": "Gimenez-Romero2024_corals",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2024,
+    "title": "Unravelling the Universal Spatial Properties of Coral Reefs",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Manuel A. Matías",
+      "Carlos M. Duarte"
+    ],
+    "venue": "Global Ecology and Biogeography",
+    "volume": "",
+    "pages": "e13939",
+    "doi": "10.1111/geb.13939",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13939",
+    "article": "https://doi.org/10.1111/geb.13939",
+    "tags": [
+      "spatial",
+      "coral-reefs",
+      "macroecology"
+    ],
+    "featured": true,
+    "summary": "Reveals recurrent size, shape and spacing patterns across more than a million coral reefs worldwide.",
+    "pdf": "/papers/GEB_2024.pdf",
+    "press": "https://www.lavanguardia.com/vida/20241218/10214195/estudio-revela-patrones-espaciales-universales-corales-mundo-agenciaslv20241218.html"
+  },
+  {
+    "key": "GimenezRomero2023",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2023,
+    "title": "A Compartmental Model for Xylella fastidiosa Diseases with Explicit Vector Seasonal Dynamics",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Eduardo Moralejo",
+      "Manuel A. Matías"
+    ],
+    "venue": "Phytopathology®",
+    "volume": "113",
+    "pages": "1686--1696",
+    "doi": "10.1094/PHYTO-11-22-0428-V",
+    "url": "https://doi.org/10.1094/PHYTO-11-22-0428-V",
+    "article": "https://doi.org/10.1094/PHYTO-11-22-0428-V",
+    "tags": [
+      "disease",
+      "mechanistic"
+    ],
+    "featured": false,
+    "pdf": "/papers/Phyto_2023.pdf"
+  },
+  {
+    "key": "Lago2023",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2023,
+    "title": "Degree-day-based model to predict egg hatching of Philaenus spumarius (Hemiptera: Aphrophoridae), the main vector of Xylella fastidiosa in Europe",
+    "authors": [
+      "Clara Lago",
+      "Àlex Giménez-Romero",
+      "Marina Morente",
+      "Manuel A Matías",
+      "Aránzazu Moreno",
+      "Alberto Fereres"
+    ],
+    "venue": "Environmental Entomology",
+    "volume": "52",
+    "pages": "350--359",
+    "doi": "10.1093/ee/nvad013",
+    "url": "https://doi.org/10.1093/ee/nvad013",
+    "article": "https://doi.org/10.1093/ee/nvad013",
+    "tags": [
+      "disease",
+      "phenology"
+    ],
+    "featured": false,
+    "pdf": "/papers/EnvEnt_2023.pdf",
+    "press": "https://cadenaser.com/baleares/2023/09/18/una-nueva-herramienta-permite-predecir-la-eclosion-de-las-ninfas-del-insecto-que-transmite-la-xylella-radio-ibiza/"
+  },
+  {
+    "key": "GimenezRomero2022_CommsBio",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2022,
+    "title": "Global predictions for the risk of establishment of Pierce's disease of grapevines",
+    "authors": [
+      "Alex Giménez-Romero",
+      "Javier Galván",
+      "Marina Montesinos",
+      "Joan Bauzà",
+      "Martin Godefroid",
+      "Alberto Fereres",
+      "José J. Ramasco",
+      "Manuel A. Matías",
+      "Eduardo Moralejo"
+    ],
+    "venue": "Communications Biology",
+    "volume": "5",
+    "pages": "1389",
+    "doi": "10.1038/s42003-022-04358-w",
+    "url": "https://doi.org/10.1038/s42003-022-04358-w",
+    "article": "https://doi.org/10.1038/s42003-022-04358-w",
+    "tags": [
+      "disease",
+      "climate",
+      "geospatial"
+    ],
+    "featured": true,
+    "pdf": "/papers/CommunicationsBiology_2022.pdf"
+  },
+  {
+    "key": "Flecha2022",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2022,
+    "title": "pH trends and seasonal cycle in the coastal Balearic Sea reconstructed through machine learning",
+    "authors": [
+      "Susana Flecha",
+      "Àlex Giménez-Romero",
+      "Joaquín Tintoré",
+      "Fiz F. Pérez",
+      "Eva Alou-Font",
+      "Manuel A. Matías",
+      "Iris E. Hendriks"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "12",
+    "pages": "12956",
+    "doi": "10.1038/s41598-022-17253-5",
+    "url": "https://doi.org/10.1038/s41598-022-17253-5",
+    "article": "https://doi.org/10.1038/s41598-022-17253-5",
+    "tags": [
+      "remote-sensing",
+      "machine-learning",
+      "marine"
+    ],
+    "featured": false,
+    "pdf": "/papers/Sci_Rep_2022.pdf",
+    "press": "https://www.csic.es/es/actualidad-del-csic/un-equipo-del-csic-identifica-la-tendencia-de-acidificacion-del-mar-balear"
+  },
+  {
+    "key": "GimenezRomero_2022_RSos",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2022,
+    "title": "Spatial effects in parasite-induced marine diseases of immobile hosts",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Federico Vazquez",
+      "Cristóbal López",
+      "Manuel A. Matías"
+    ],
+    "venue": "Royal Society Open Science",
+    "volume": "9",
+    "pages": "212023",
+    "doi": "10.1098/rsos.212023",
+    "url": "https://royalsocietypublishing.org/doi/abs/10.1098/rsos.212023",
+    "article": "https://doi.org/10.1098/rsos.212023",
+    "tags": [
+      "disease",
+      "marine",
+      "spatial"
+    ],
+    "featured": false,
+    "pdf": "/papers/rsos_2022.pdf"
+  },
+  {
+    "key": "GimenezRomero2022_PRE",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2022,
+    "title": "Vector-borne diseases with nonstationary vector populations: The case of growing and decaying populations",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Rosa Flaquer-Galmés",
+      "Manuel A. Matías"
+    ],
+    "venue": "Phys. Rev. E",
+    "volume": "106",
+    "pages": "054402",
+    "doi": "10.1103/PhysRevE.106.054402",
+    "url": "https://link.aps.org/doi/10.1103/PhysRevE.106.054402",
+    "article": "https://doi.org/10.1103/PhysRevE.106.054402",
+    "tags": [
+      "disease",
+      "theory"
+    ],
+    "featured": false,
+    "pdf": "/papers/PRE_2022.pdf"
+  },
+  {
+    "key": "GimenezRomero2021",
+    "entryType": "article",
+    "type": "journal",
+    "year": 2021,
+    "title": "Modelling parasite-produced marine diseases: The case of the mass mortality event of Pinna nobilis",
+    "authors": [
+      "Àlex Giménez-Romero",
+      "Amalia Grau",
+      "Iris E. Hendriks",
+      "Manuel A. Matias"
+    ],
+    "venue": "Ecological Modelling",
+    "volume": "459",
+    "pages": "109705",
+    "doi": "10.1016/j.ecolmodel.2021.109705",
+    "url": "https://www.sciencedirect.com/science/article/pii/S030438002100260X",
+    "article": "https://doi.org/10.1016/j.ecolmodel.2021.109705",
+    "tags": [
+      "disease",
+      "marine",
+      "mechanistic"
+    ],
+    "featured": false,
+    "pdf": "/papers/Ecol_mod_2021.pdf"
+  }
+]

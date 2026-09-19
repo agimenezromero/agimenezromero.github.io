@@ -1,0 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import NetworkVisual from './NetworkVisual.astro';
+import pdRisk from '@/assets/images/pd-risk.png';
+import posidonia from '@/assets/images/posidonia.jpg';
+import worldMap from '@/assets/images/world-map.png';
+const { type } = Astro.props;
+---
+<div class:list={['theme-visual', `theme-visual--${type}`]}>
+  {type === 'network' && <NetworkVisual />}
+  {type === 'disease' && <Image src={pdRisk} alt="Global maps of estimated Pierce's disease climatic risk" widths={[600, 900, 1200]} sizes="(min-width: 900px) 46vw, 92vw" />}
+  {type === 'spatial' && <Image src={posidonia} alt="Mediterranean Posidonia oceanica seagrass meadow" widths={[600, 900, 1200]} sizes="(min-width: 900px) 46vw, 92vw" />}
+  {type === 'remote' && <div class="remote-composite"><Image src={worldMap} alt="World map used as a motif for large-scale ecological observation" /><div class="scan-grid"></div><span>satellite → representation → map</span></div>}
+</div>

@@ -1,0 +1,22 @@
+---
+import { nav, site } from '@/data/site';
+const current = Astro.url.pathname;
+---
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="/" aria-label={`${site.name}, home`}>
+      <span>Àlex</span><span>Giménez-Romero</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      {nav.map(item => <a class:list={['nav-link', current.startsWith(item.href) && 'is-active']} href={item.href}>{item.label}</a>)}
+      <a class="cv-link" href="/cv/Alex_Gimenez_Romero_CV.pdf" data-umami-event="cv-download">CV <span aria-hidden="true">↗</span></a>
+    </nav>
+    <details class="mobile-nav">
+      <summary aria-label="Open navigation">Menu</summary>
+      <div class="mobile-panel">
+        {nav.map(item => <a href={item.href}>{item.label}</a>)}
+        <a href="/cv/Alex_Gimenez_Romero_CV.pdf" data-umami-event="cv-download">CV ↗</a>
+      </div>
+    </details>
+  </div>
+</header>

@@ -1,0 +1,25 @@
+---
+const { pub, compact = false, number = null, total = null } = Astro.props;
+const authors = pub.authors?.join(', ').replace('Àlex Giménez-Romero','<strong>Àlex Giménez-Romero</strong>').replace('Alex Giménez-Romero','<strong>Àlex Giménez-Romero</strong>').replace('Àlex Giménez Romero','<strong>Àlex Giménez-Romero</strong>');
+const venueParts = [pub.venue, pub.volume, pub.pages].filter(Boolean).join(' · ');
+const articleUrl = pub.article || (pub.doi ? `https://doi.org/${pub.doi}` : null);
+---
+<article class:list={['publication-item', compact && 'publication-item--compact']} data-type={pub.type} data-tags={(pub.tags || []).join(' ')}>
+  <div
+    class:list={['publication-year', number !== null && 'publication-count']}
+    aria-label={number !== null && total !== null ? `Publication ${number} of ${total}` : `Published in ${pub.year}`}
+  >{number ?? pub.year}</div>
+  <div class="publication-main">
+    <h3>{pub.title}</h3>
+    <p class="publication-authors" set:html={authors}></p>
+    <p class="publication-venue">{venueParts}{pub.type === 'preprint' && <span class="status-pill">preprint</span>}</p>
+    {!compact && pub.summary && <p class="publication-summary">{pub.summary}</p>}
+    {(articleUrl || pub.pdf || pub.press) && (
+      <div class="publication-links">
+        {articleUrl && <a href={articleUrl} target="_blank" rel="noopener noreferrer" data-umami-event="publication-open" data-umami-event-resource="article" data-umami-event-title={pub.title}>Article ↗</a>}
+        {pub.pdf && <a href={pub.pdf} download data-umami-event="publication-open" data-umami-event-resource="pdf" data-umami-event-title={pub.title}>PDF ↓</a>}
+        {pub.press && <a href={pub.press} target="_blank" rel="noopener noreferrer" data-umami-event="publication-open" data-umami-event-resource="press" data-umami-event-title={pub.title}>Press ↗</a>}
+      </div>
+    )}
+  </div>
+</article>
