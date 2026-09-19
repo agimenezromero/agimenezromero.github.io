@@ -3,7 +3,7 @@ export const conversation = [
     year: 2026,
     title: 'Los arrecifes de coral parecen distintos alrededor del mundo pero siguen las mismas reglas matemáticas',
     outlet: 'The Conversation · Ciencia + Tecnología',
-    href: null,
+    href: 'https://theconversation.com/los-arrecifes-de-coral-parecen-distintos-alrededor-del-mundo-pero-siguen-las-mismas-reglas-matematicas-285110?utm_source=chatgpt.com',
     topic: 'Coral reef macroecology',
   },
   {
@@ -54,6 +54,6 @@ export const media = [
   { year: 2026, title: 'El desafío de mapear un mundo oculto: IA y científicos se alían para salvar la posidonia', outlet: 'elDiario.es', href: 'https://www.eldiario.es/illes-balears/sociedad/desafio-mapear-mundo-oculto-ia-cientificos-alian-salvar-posidonia_1_12886824.html' },
   { year: 2026, title: 'Entrevista Españoles en la mar', outlet: 'RNE Audio', href: null },
   { year: 2026, title: 'Entrevista Codi Beta', outlet: 'IB3 Ràdio', href: null },
-  { year: 2026, title: 'El Mediterráneo arde: el mar Balear acumula niveles de calor récord desde abril', outlet: 'El País', href: null },
+  { year: 2026, title: 'El Mediterráneo arde: el mar Balear acumula niveles de calor récord desde abril', outlet: 'El País', href: 'https://elpais.com/clima-y-medio-ambiente/2026-07-10/el-mediterraneo-arde-el-mar-balear-acumula-niveles-de-calor-record-desde-abril.html' },
   { year: 2024, title: 'The absence of an epidemic in grapes', outlet: 'Science · In Other Journals', href: null },
 ];

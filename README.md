@@ -1,15 +1,18 @@
-# Àlex Giménez-Romero — research website
+# Àlex Giménez-Romero — Research Website
 
-A ground-up Astro rebuild of the personal research website. The design is intentionally research-led rather than CV-led: scientific questions and outputs are foregrounded, while the complete academic record remains available in the CV.
+Source code for the personal research website of **Àlex Giménez-Romero**, built with [Astro](https://astro.build/) and deployed with GitHub Pages.
+
+Live site: https://agimenezromero.github.io/
 
 ## Stack
 
-- Astro 7
-- TypeScript
-- Native CSS (no Tailwind or UI framework)
-- Static output
-- GitHub Pages deployment through the official Astro action
-- BibTeX as the publication source of truth
+* Astro 7
+* TypeScript
+* Native CSS
+* Static site generation
+* GitHub Pages
+* BibTeX-based publication management
+* Umami Analytics
 
 ## Run locally
 
@@ -20,81 +23,205 @@ npm install
 npm run dev
 ```
 
-The project runs `scripts/sync-publications.mjs` before development and production builds. This parses `src/data/publications.bib`, merges website-specific metadata from `src/data/publication-meta.json`, and writes `src/data/publications.generated.json`.
+The local development server is normally available at:
 
-## Update publications
+```text
+http://localhost:4321
+```
 
-1. Replace or edit `src/data/publications.bib`.
-2. Add website-specific metadata in `src/data/publication-meta.json` as needed: tags, summaries, `featured`, local `pdf`, selected `press`, or an `article` DOI URL for records without a DOI field in the BibTeX source.
-3. Run:
+To use another port:
+
+```bash
+npm run dev -- --port 4322
+```
+
+## Build
+
+Create a production build with:
+
+```bash
+npm run build
+```
+
+The generated site is written to `dist/`.
+
+A local production preview can be started with:
+
+```bash
+npm run preview
+```
+
+## Publications
+
+Bibliographic information is stored in:
+
+```text
+src/data/publications.bib
+```
+
+Website-specific metadata is stored separately in:
+
+```text
+src/data/publication-meta.json
+```
+
+This metadata can contain information such as:
+
+* research themes;
+* featured status;
+* short summaries;
+* local PDF files;
+* selected press coverage;
+* article links when required.
+
+Publication data are generated automatically by:
+
+```text
+scripts/sync-publications.mjs
+```
+
+The script combines the BibTeX bibliography with the website metadata and writes:
+
+```text
+src/data/publications.generated.json
+```
+
+To regenerate the publication data manually:
 
 ```bash
 npm run sync:publications
 ```
 
-Do not manually edit `publications.generated.json`. Article links are generated from DOI values by default; PDFs are served from `public/papers/`, and press links are deliberately selected rather than exhaustive.
+Do not edit `publications.generated.json` manually.
 
-## Main content files
+Published article links are generated from DOI values whenever possible. Local PDF copies are served from:
 
-- `src/data/research.ts` — the four research programmes
-- `src/data/tools.ts` — dashboards/tools
-- `src/data/outreach.ts` — authored outreach, management briefs and media
-- `src/data/about.ts` — positions, education, teaching and supervision
-- `src/data/site.ts` — identity and profile links
+```text
+public/papers/
+```
 
-## Images
+Press links are selected individually in `publication-meta.json`.
 
-The first version reuses a small number of existing research images and the current portrait from the previous website. These are deliberately easy to replace under `src/assets/images/`.
+## Content
 
-## Deploy
+The main structured content is located in:
 
-The repository is configured for `agimenezromero.github.io`, so no `base` path is needed. In GitHub repository settings, set **Pages → Source → GitHub Actions**. Pushes to `main` will build and deploy the site.
+```text
+src/data/
+```
 
-If you later use a custom domain, update `site` in `astro.config.mjs` and add `public/CNAME`.
+Important files include:
 
-## Content decisions in this first draft
+```text
+research.ts           Research programmes
+tools.ts              Interactive research tools and resources
+outreach.ts           Outreach articles, briefs and media coverage
+about.ts              Positions, education, teaching and supervision
+site.ts               Site metadata and profile links
+publications.bib       Bibliographic source
+publication-meta.json Website-specific publication metadata
+```
 
-The homepage is deliberately selective. Conference lists, funding applications, reviewer counts, certifications and exhaustive skills remain in the CV rather than becoming top-level web content. Teaching and supervision are included within About. Publications, tools and outreach have their own pages because they are active research outputs.
+Page templates are located under:
 
-Some media/outreach entries in the CV did not include stable URLs; these are rendered as text until a canonical URL is added.
+```text
+src/pages/
+```
 
-## Standalone previews
+Reusable components are located under:
 
-The `preview/` folder contains dependency-free HTML previews that can be opened directly in a browser:
+```text
+src/components/
+```
 
-- `preview/index.html` — homepage
-- `preview/research.html` — Research page, including the corrected Selected work ordering
+Global styles are located under:
 
-These previews are only for design inspection; the Astro source under `src/` is canonical.
+```text
+src/styles/
+```
+
+Images used by Astro are primarily stored under:
+
+```text
+src/assets/images/
+```
+
+Static files that should be copied directly to the final site are stored under:
+
+```text
+public/
+```
+
+## CV
+
+The downloadable CV is stored at:
+
+```text
+public/cv/Alex_Gimenez_Romero_CV.pdf
+```
+
+Replacing this file with an updated PDF while keeping the same filename automatically updates the CV served by the website.
+
+## Deployment
+
+The site is configured for:
+
+```text
+https://agimenezromero.github.io
+```
+
+GitHub Pages deployment is handled automatically through GitHub Actions.
+
+The deployment workflow is located at:
+
+```text
+.github/workflows/deploy.yml
+```
+
+Pushes to the `main` branch trigger a new production build and deployment.
+
+In the repository settings, GitHub Pages should use:
+
+```text
+Settings → Pages → Source → GitHub Actions
+```
+
+If a custom domain is introduced in the future, update the `site` value in:
+
+```text
+astro.config.mjs
+```
+
+and add the corresponding `CNAME` file under `public/`.
 
 ## Analytics
 
-The site is prepared for **Umami Analytics**, a lightweight, cookieless analytics platform. Analytics is disabled automatically until a website ID is configured, so local development does not send any data by default.
+The website supports [Umami Analytics](https://umami.is/).
 
-The tracker is added once in `src/layouts/BaseLayout.astro`. It automatically records page views and standard visit/referrer/device metrics. The site also contains custom event tracking for:
+Analytics are enabled only when an Umami Website ID is provided.
 
-- publication `Article`, `PDF` and `Press` clicks;
-- research-theme and research-tool opens;
-- CV downloads;
-- outbound ORCID, Google Scholar, GitHub and Bluesky profile links;
-- outreach/media opens;
-- email/contact clicks.
+For local development, create a `.env` file based on `.env.example`:
 
-### Local activation
+```bash
+cp .env.example .env
+```
 
-1. Create the website in Umami and copy its Website ID.
-2. Copy `.env.example` to `.env`.
-3. Set `PUBLIC_UMAMI_WEBSITE_ID`.
-4. Optionally set `PUBLIC_UMAMI_DOMAINS` to the production domain(s), comma-separated. Keeping this set prevents localhost traffic from being counted.
+and configure:
 
-For Umami Cloud, leave `PUBLIC_UMAMI_SCRIPT_URL=https://cloud.umami.is/script.js`. Change it only for a self-hosted Umami instance.
+```text
+PUBLIC_UMAMI_WEBSITE_ID=
+PUBLIC_UMAMI_SCRIPT_URL=https://cloud.umami.is/script.js
+PUBLIC_UMAMI_DOMAINS=agimenezromero.github.io
+```
 
-### GitHub Pages activation
+For production deployment, define the same values as GitHub repository variables under:
 
-In **GitHub repository → Settings → Secrets and variables → Actions → Variables**, add:
+```text
+Settings → Secrets and variables → Actions → Variables
+```
 
-- `PUBLIC_UMAMI_WEBSITE_ID`
-- `PUBLIC_UMAMI_SCRIPT_URL` = `https://cloud.umami.is/script.js`
-- `PUBLIC_UMAMI_DOMAINS` = `agimenezromero.github.io` (or the future custom domain)
+The website tracks standard page views together with selected interactions, including publication links, research tools, research themes, CV access, outreach links and external academic profiles.
 
-The deployment workflow already exposes these repository variables to the Astro build.
+## License
+
+Website content and research material remain the property of their respective authors unless otherwise stated.

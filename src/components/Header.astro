@@ -9,13 +9,28 @@ const current = Astro.url.pathname;
     </a>
     <nav class="desktop-nav" aria-label="Primary navigation">
       {nav.map(item => <a class:list={['nav-link', current.startsWith(item.href) && 'is-active']} href={item.href}>{item.label}</a>)}
-      <a class="cv-link" href="/cv/Alex_Gimenez_Romero_CV.pdf" data-umami-event="cv-download">CV <span aria-hidden="true">↗</span></a>
+      <a
+        class="cv-link"
+        href="/cv/Alex_Gimenez_Romero_CV.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-umami-event="cv-download"
+      >
+        CV <span aria-hidden="true">↗</span>
+      </a>
     </nav>
     <details class="mobile-nav">
       <summary aria-label="Open navigation">Menu</summary>
       <div class="mobile-panel">
         {nav.map(item => <a href={item.href}>{item.label}</a>)}
-        <a href="/cv/Alex_Gimenez_Romero_CV.pdf" data-umami-event="cv-download">CV ↗</a>
+        <a
+          href="/cv/Alex_Gimenez_Romero_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-umami-event="cv-download"
+        >
+          CV ↗
+        </a>
       </div>
     </details>
   </div>

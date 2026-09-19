@@ -54,7 +54,7 @@ export const researchThemes: ResearchTheme[] = [
     title: 'Extending ecological observation across scales',
     question: 'How can machine learning and Earth-observation data turn sparse ecological observations into robust, transferable maps?',
     description:
-      'I combine satellite imagery, geospatial data and deep learning to map marine habitats and reconstruct ecological variables. The objective is not AI for its own sake, but scalable ecological observation that remains reliable when transferred across locations and conditions.',
+      'I combine satellite imagery, geospatial data and deep learning to map marine habitats and reconstruct ecological variables. The emphasis is on scalable ecological observation and robust transfer across locations and environmental conditions.',
     methods: ['Deep learning', 'Satellite imagery', 'Geospatial analysis', 'Transferability'],
     publicationKeys: ['Gimenez-Romero2025_posi', 'Flecha2022'],
     visual: 'remote',

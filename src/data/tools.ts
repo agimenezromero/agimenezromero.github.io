@@ -22,7 +22,7 @@ export const tools = [
     number: '03',
     title: 'CAMELE',
     kicker: 'Ecological dashboard',
-    description: 'A scientific dashboard developed as part of my research software and web-tool portfolio.',
+    description: 'Explore deep-learning predictions of Mediterranean seagrass and other benthic habitats from high-resolution satellite imagery.',
     href: 'https://camele.ifisc.uib-csic.es/',
     image: 'world',
   },
