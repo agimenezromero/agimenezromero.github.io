@@ -3,7 +3,7 @@ export const site = {
   shortName: 'Àlex Giménez-Romero',
   role: 'Theoretical & computational ecologist',
   description:
-    'I study how ecological systems respond to environmental change and perturbations, combining mechanistic models, complex-systems approaches and large-scale ecological data.',
+    'I am interested in understanding how ecological systems respond to perturbations and environmental change. To do so, I combine mechanistic models and complex-systems approaches with large-scale ecological, climatic and Earth-observation data.',
   email: 'alex.gimenez@csic.es',
   location: 'CEAB-CSIC · ISEM, University of Montpellier',
   orcid: 'https://orcid.org/0000-0003-2796-6801',

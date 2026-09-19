@@ -533,6 +533,10 @@ button { font: inherit; }
   pointer-events: none;
   user-select: none;
 }
+.tool-feature-row--reverse .tool-index {
+  right: auto;
+  left: 1.4rem;
+}
 .tool-image {
   grid-area: image;
   height: 390px;
@@ -563,5 +567,10 @@ button { font: inherit; }
   .tool-feature-stack { padding-top: 1.5rem; gap: 1rem; }
   .tool-feature-row { padding: 1.5rem; min-height: 0; }
   .tool-image { height: 280px; }
-  .tool-index { top: .45rem; right: .7rem; font-size: 4.2rem; }
+  .tool-index {
+    top: .45rem;
+    right: .7rem;
+    left: auto;
+    font-size: 4.2rem;
+  }
 }
