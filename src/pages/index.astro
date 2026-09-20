@@ -5,10 +5,9 @@ import ThemeVisual from '@/components/ThemeVisual.astro';
 import PublicationItem from '@/components/PublicationItem.astro';
 import { Image } from 'astro:assets';
 import portrait from '@/assets/images/portrait.jpg';
-import pdRisk from '@/assets/images/pd-risk.png';
-import posidonia from '@/assets/images/posidonia.jpg';
+import pdRisk from '@/assets/images/pd-leaf.png';
 import philaenus from '@/assets/images/philaenus.jpg';
-import worldMap from '@/assets/images/world-map.png';
+import worldMap from '@/assets/images/posidonia.png';
 import { site } from '@/data/site';
 import { researchThemes } from '@/data/research';
 import { tools } from '@/data/tools';
@@ -77,7 +76,12 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
 
   <section class="section section--feature shell">
     <div class="feature-story">
-      <div class="feature-media"><Image src={pdRisk} alt="Global maps of Pierce's disease risk" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-media">
+        <ThemeVisual
+          prefix="disease"
+          alt="Research on climate-driven disease dynamics and epidemic risk"
+        />
+      </div>
       <div class="feature-copy">
         <p class="eyebrow">Climate-driven disease</p>
         <h2>From transmission mechanisms to emerging risk</h2>
@@ -86,7 +90,12 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
       </div>
     </div>
     <div class="feature-story feature-story--reverse">
-      <div class="feature-media"><ThemeVisual type="network" /></div>
+      <div class="feature-media">
+        <ThemeVisual
+          prefix="ecological-structure"
+          alt="Research on ecological stability and resilience"
+        />
+      </div>
       <div class="feature-copy">
         <p class="eyebrow">Stability & resilience</p>
         <h2>How ecological structure changes the response to perturbation</h2>
@@ -95,7 +104,12 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
       </div>
     </div>
     <div class="feature-story">
-      <div class="feature-media"><Image src={posidonia} alt="Posidonia oceanica meadow photographed underwater" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-media">
+        <ThemeVisual
+          prefix="spatial-patterns"
+          alt="Research on spatial organization and pattern formation"
+        />
+      </div>
       <div class="feature-copy">
         <p class="eyebrow">Spatial ecology</p>
         <h2>Patterns as ecological information</h2>
@@ -104,7 +118,12 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
       </div>
     </div>
     <div class="feature-story feature-story--reverse">
-      <div class="feature-media"><Image src={worldMap} alt="Global-scale ecological mapping from Earth-observation data" widths={[700, 1100, 1500]} sizes="(min-width: 900px) 55vw, 94vw" /></div>
+      <div class="feature-media">
+        <ThemeVisual
+          prefix="ecological-observation"
+          alt="Research on ecological remote sensing and artificial intelligence"
+        />
+      </div>
       <div class="feature-copy">
         <p class="eyebrow">AI & remote sensing</p>
         <h2>Extending ecological observation across scales</h2>

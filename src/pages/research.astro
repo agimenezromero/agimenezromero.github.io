@@ -26,7 +26,10 @@ const byKey = new Map(pubs.map((p:any) => [p.key, p]));
             <p>{theme.description}</p>
             <div class="method-chips">{theme.methods.map(m => <span>{m}</span>)}</div>
           </div>
-          <ThemeVisual type={theme.visual} />
+          <ThemeVisual
+            prefix={theme.imagePrefix}
+            alt={theme.imageAlt}
+          />
           <div class="theme-publications">
             <p class="eyebrow">Selected work</p>
             {selected.map((p:any) => <PublicationItem pub={p} compact={true} />)}
