@@ -116,7 +116,6 @@ Important files include:
 research.ts           Research programmes
 tools.ts              Interactive research tools and resources
 outreach.ts           Outreach articles, briefs and media coverage
-about.ts              Positions, education, teaching and supervision
 site.ts               Site metadata and profile links
 publications.bib       Bibliographic source
 publication-meta.json Website-specific publication metadata
@@ -200,13 +199,7 @@ The website supports [Umami Analytics](https://umami.is/).
 
 Analytics are enabled only when an Umami Website ID is provided.
 
-For local development, create a `.env` file based on `.env.example`:
-
-```bash
-cp .env.example .env
-```
-
-and configure:
+For local analytics testing, create a `.env` file in the project root and configure:
 
 ```text
 PUBLIC_UMAMI_WEBSITE_ID=

@@ -17,5 +17,4 @@ export const nav = [
   { label: 'Publications', href: '/publications' },
   { label: 'Tools & data', href: '/tools' },
   { label: 'Outreach', href: '/outreach' },
-  { label: 'About', href: '/about' },
 ];

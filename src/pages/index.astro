@@ -29,7 +29,6 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
       <div class="hero-actions">
         <a class="button button--primary" href="/research">Explore research <span>→</span></a>
         <a class="text-link" href="/publications">Publications <span>→</span></a>
-        <a class="text-link" href="/about">About <span>→</span></a>
       </div>
     </div>
     <div class="hero-portrait">
@@ -40,8 +39,31 @@ const toolImages:any = { 'pd-risk': pdRisk, philaenus, world: worldMap };
     </div>
   </section>
 
+  <section class="section section--about shell">
+    <div class="home-about-heading">
+      <p class="eyebrow">About</p>
+      <h2>From physics to ecology</h2>
+    </div>
+
+    <div class="home-about-grid">
+      <div class="home-about-column">
+        <p class="home-about-label">My research</p>
+        <p>I am a researcher in theoretical and computational ecology with a background in physics and complex systems. I am interested in understanding how ecological systems respond to perturbations and environmental change, and in identifying general principles that connect ecological dynamics across different systems and scales.</p>
+        <p>My research combines theory-driven and data-intensive approaches. Depending on the question, I use mechanistic models, stochastic and spatial methods, ecological network theory, deep learning, remote sensing, and climate and satellite data. I see these approaches as complementary: models help isolate mechanisms and formulate hypotheses, while ecological and environmental data allow those ideas to be confronted with observations across increasingly large spatial and temporal scales.</p>
+        <p>Much of my work revolves around ecological stability and resilience, climate-driven disease dynamics, and the information contained in spatial ecological patterns. I have explored these questions in systems ranging from plant and marine diseases to ecological networks, coral reefs, seagrass meadows and dryland vegetation.</p>
+      </div>
+
+      <div class="home-about-column">
+        <p class="home-about-label">Biography</p>
+        <p>I studied Physics at the Autonomous University of Barcelona, where I became interested in numerical methods and complex systems. I later completed an MSc and PhD in Physics of Complex Systems at the University of the Balearic Islands and IFISC, progressively moving from physics towards ecological applications. My PhD thesis, <em>Theoretical and data-driven models in Ecology</em>, reflected this interdisciplinary trajectory. During my PhD, I also completed an MSc in Quantitative Finance at UNED, broadening my experience in statistical and computational modelling.</p>
+        <p>Research stays at the Institute of Physics of Cantabria, the University of Exeter and the University of Oxford further broadened my perspective on climate data, plant disease, population dynamics and community ecology. After my PhD, I joined CEAB-CSIC as a postdoctoral researcher hosted by Meritxell Genovart and subsequently as a Juan de la Cierva Fellow hosted by Daniel Oro. I am currently also carrying out a research stay at ISEM, University of Montpellier, with Emanuel Fronhofer.</p>
+        <p class="home-about-acknowledgements">I am particularly grateful to Vicens Méndez, Juan Camacho and Jordi Faraudo, who introduced me to the world of complex systems during my undergraduate studies, and to Manuel A. Matías, whose supervision, support and mentorship throughout my MSc and PhD have been fundamental to my scientific and personal development.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="section section--research shell">
-    <SectionHeading eyebrow="Research" title="Ecological dynamics across scales" intro="My research spans very different ecological systems—from communities and plant epidemics to coral reefs and seagrass meadows—but is guided by a common question: how do structure, interactions and environmental forcing shape ecological dynamics and resilience?. I explore these questions with four interconnected research programmes, from mathematical mechanisms to global ecological observation." />
+    <SectionHeading eyebrow="Research" title="Ecological dynamics across scales" intro="My research spans very different ecological systems—from communities and plant epidemics to coral reefs and seagrass meadows—but is guided by a common question: how do structure, interactions and environmental forcing shape ecological dynamics and resilience? I explore these questions through four interconnected research lines, from mathematical mechanisms to global ecological observation." />
     <div class="research-index">
       {researchThemes.map(theme => (
         <a class:list={['research-index-item', `research-index-item--${theme.slug}`]} href={`/research#${theme.slug}`} data-umami-event="research-theme-open" data-umami-event-theme={theme.eyebrow}>
